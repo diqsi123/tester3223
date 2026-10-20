@@ -1,0 +1,4 @@
+interface:
+  display_name: "Структура приложения в FigJam"
+  short_description: "Понятная структура, связи и подписи в рабочем стиле"
+  default_prompt: "Используй $figjam-product-structure: проверь требования, структуру и переходы, затем внеси согласованные правки в FigJam"
