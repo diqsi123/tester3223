@@ -1,0 +1,113 @@
+.chat-attachment-layer{position:absolute;inset:0;z-index:36}
+.dialog-root .chat-attachment-dismiss{position:absolute;inset:0;width:100%;height:100%}
+.chat-attachment-menu{position:absolute;left:16px;width:238px;border-radius:36px;background:#f6f6f6dc;backdrop-filter:blur(24px);box-shadow:0 16px 32px #0003,inset 0 1px 1px #fff;border:1px solid #bcbcbc;overflow:hidden;height:160px;padding:9px 15px}
+.dialog-root .chat-attachment-menu>button{display:flex;align-items:center;gap:8px;min-height:40px;width:100%;padding:10px;color:#1a1a1a;font:400 17px/20px -apple-system,BlinkMacSystemFont,sans-serif;text-align:left}
+.dialog-root .chat-attachment-menu>button:nth-child(2){min-height:60px}
+.chat-attachment-menu>button>span{display:flex;align-items:center;justify-content:flex-start;flex:none;width:24px;height:20px}
+.chat-attachment-menu img{max-width:none}
+.chat-attachment-menu>button:focus-visible,.chat-media-preview button:focus-visible{outline:2px solid #fdab1b;outline-offset:-2px;border-radius:20px}
+.chat-attachment-menu>button:active{background:#1c140708}
+/* Full source-coordinate overlay. Keyboard moves only its attached composer. */
+.chat-media-preview{position:absolute;inset:0;z-index:37;background:transparent}
+/* SCREEN with opaque #F4F4F4 equals this white alpha over any opaque backdrop. */
+.chat-media-preview-wash{position:absolute;inset:0;background:rgb(255 255 255 / .9568627451);pointer-events:none}
+.chat-media-preview-picture{position:absolute;left:20px;right:20px;top:calc(50% - 173px);height:300px;border:0;outline:0;box-shadow:none;border-radius:24px}
+.chat-media-preview-picture>img,.chat-media-preview-picture>video{width:100%;height:100%;object-fit:cover;display:block;border:0;outline:0;box-shadow:none;border-radius:24px}
+.chat-media-preview-actions{position:absolute;bottom:12px;left:12px;display:flex;gap:12px}
+.dialog-root .chat-media-preview-actions>button{position:relative;display:grid;place-items:center;width:48px;height:48px;padding-top:1px;border:0;border-radius:50%;background:#1c14077a;backdrop-filter:blur(2px);box-shadow:0 8px 16px #1c14070a}
+.chat-media-preview-actions>button>img{width:14px;height:14px;max-width:none}
+.chat-media-once-symbol{position:relative;display:block;width:24px;height:24px}
+.chat-media-once-symbol>img{position:absolute;inset:0;width:24px;height:24px;max-width:none}
+.chat-media-once-symbol>img.is-filled{inset:2.265px 3.6554px;width:16.6892px;height:19.47px}
+.chat-media-once-hint{position:absolute;left:-2px;top:188px;width:195px;height:44px;display:flex;flex-direction:column;align-items:center;pointer-events:none}
+.chat-media-once-hint>span{display:flex;align-items:center;justify-content:center;width:195px;height:36px;padding:10px 12px 8px;border-radius:12px;background:#1c14077a;backdrop-filter:blur(40px);color:#fff;font:500 13px/1.35 Gerbera,sans-serif;letter-spacing:-.26px;white-space:nowrap}
+.chat-media-once-hint>img{display:block;width:12px;height:8px;max-width:none}
+.chat-media-filmstrip{position:absolute;left:20px;right:20px;bottom:190px;height:72px}
+.chat-media-filmstrip-scroll{height:72px;overscroll-behavior-x:contain}
+.chat-media-filmstrip-track{gap:2px;justify-content:center}
+.dialog-root .chat-media-filmstrip-track>button{position:relative;flex:none;width:72px;height:72px;padding:4px;border:2px solid transparent;border-radius:24px;background:transparent}
+.dialog-root .chat-media-filmstrip-track>button[aria-pressed="true"]{border-color:#1c1407}
+.chat-media-filmstrip-track>button>img,.chat-media-filmstrip-track>button>video{display:block;width:60px;height:60px;object-fit:cover;border-radius:18px}
+.chat-media-filmstrip-track>button>span{width:60px;height:60px;border-radius:18px;background:#f4f4f4;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:5px;color:#3c3c4399;font:500 11px/12px -apple-system,BlinkMacSystemFont,sans-serif;box-shadow:inset 0 0 14.769px 1.846px #74560f0a}
+.chat-media-filmstrip-track>button>span>img{display:block;width:24px;height:24px;max-width:none}
+/* Focus source4055:115340 has a2px gap from the64px composer to keyboard.
+   Derive that lift from the shared footer motion (110 resting /317 focused), without a second timeline. */
+.chat-media-caption{--media-caption-lift:clamp(0px,calc((var(--chat-footer-bottom,110px) - 110px) * .009661835749),2px);position:absolute;left:20px;right:20px;bottom:calc(var(--chat-footer-bottom,110px) + 12px + var(--media-caption-lift));display:flex;gap:6px;align-items:flex-end}
+.chat-media-caption-mask{position:absolute;left:-20px;top:-36px;overflow:visible;pointer-events:none}
+.chat-media-caption-measure{position:absolute;left:0;top:0;height:auto;padding:0;visibility:hidden;pointer-events:none;white-space:pre-wrap;overflow-wrap:break-word;font:400 15px/15px Gerbera,sans-serif}
+.chat-media-caption-field{position:relative;flex:1;min-width:0;overflow:clip;border-radius:24px;background:#ffffff7a;backdrop-filter:blur(10px);box-shadow:0 8px 12px #1c140708,inset 0 0 0 1px #ffffff80}
+.dialog-root .chat-media-caption textarea{position:absolute;left:0;top:0;display:block;width:100%;min-width:0;min-height:48px;height:48px;max-height:132px;resize:none;border:0;border-radius:24px;padding:16px 14px 17px;background:transparent;box-shadow:none;color:#1c1407;font:400 15px/15px Gerbera,sans-serif;letter-spacing:-.3px;outline:none;caret-color:#fdab1b;overflow-y:auto}
+.chat-media-caption textarea::placeholder{color:rgb(28 20 7/.56);opacity:1}
+.dialog-root .chat-media-caption>button{position:relative;display:block;width:48px;height:48px;padding:0;flex:none;border:0;border-radius:50%;background:transparent;box-shadow:none}
+.chat-media-caption>button>img{position:absolute;left:-16px;top:-10px;width:80px;height:80px;max-width:none;pointer-events:none}
+.dialog-root .chat-bubble.is-media{max-width:312px;width:312px;padding:1px;overflow:visible}
+.chat-media-grid{border-radius:17px;overflow:hidden;display:grid;grid-template-columns:1fr;gap:1px;min-height:128px}
+.chat-media-grid.is-album{grid-template-columns:repeat(2,minmax(0,1fr))}
+.dialog-root .chat-media-grid>button{position:relative;width:100%;height:256.828491px;overflow:hidden;display:block}
+.dialog-root .chat-media-grid.is-album>button{height:128px}
+.chat-media-grid>button>img,.chat-media-grid>button>video{width:100%;height:100%;object-fit:cover;display:block}
+.chat-media-video-label{position:absolute;top:8px;left:8px;border-radius:20px;background:#0006;padding:4px 8px;font:500 12px/16px Gerbera,sans-serif;color:white}
+.chat-media-once-cover{position:absolute;inset:0;display:grid;place-items:center;background:#00000003;backdrop-filter:blur(25px)}
+.chat-media-once-cover:before{content:"";position:absolute;inset:0;background:url("/assets/chat-media/once-noise-2x.png") center/100% 100%;mix-blend-mode:screen;pointer-events:none}
+.chat-media-once-cover>img{position:relative;width:48px;height:48px;max-width:none}
+.chat-bubble.is-media>.chat-message-time{background:#0005;opacity:1;color:white;backdrop-filter:blur(25px);border-radius:20px;padding:3px 7px;height:20px;bottom:5px;right:8px}
+.chat-bubble.is-media>.chat-bubble-text{padding:10px 10px 8px;margin:0}
+.chat-bubble.is-media:has(>.chat-bubble-text)>.chat-message-time{background:transparent;backdrop-filter:none;-webkit-backdrop-filter:none;border-radius:0;padding:0;height:14px;bottom:5px;right:8px;color:inherit;opacity:.64}
+/* Source3995:101707/101978. This overlay stays inside one scaled dialog canvas. */
+.chat-media-viewer{position:absolute;inset:0;z-index:100;background:#1c1407;isolation:isolate;overflow:clip;color:white}
+.chat-media-viewer-header{position:absolute;top:73px;left:calc(50% - 83px);width:166px;display:flex;flex-direction:column;align-items:center;gap:6px}
+.chat-media-viewer-header>div{display:flex;align-items:center;justify-content:center;gap:6px;width:100%;height:16px}
+.chat-media-viewer-header strong{font:500 15px/15px Gerbera,sans-serif;letter-spacing:-.3px;white-space:nowrap}
+.chat-media-viewer-header img{display:block;flex:none;width:16px;height:16px;max-width:none}
+.chat-media-viewer-header p{margin:0;width:100%;color:rgb(255 255 255/.56);font:500 13px/16.25px Gerbera,sans-serif;text-align:center}
+.dialog-root .chat-media-viewer-close{position:absolute;right:20px;top:68px;z-index:1;display:grid;place-items:center;width:48px;height:48px;padding:1px 0 0;border:0;border-radius:50%;background:transparent;box-shadow:none}
+.chat-media-viewer-close img{width:14px;height:14px;max-width:none}
+.chat-media-viewer-picture{position:absolute;left:0;right:0;top:calc(50% - .5px);height:333px;transform:translateY(-50%);overflow:clip}
+.chat-media-viewer-picture>img,.chat-media-viewer-picture>video{display:block;width:100%;height:100%;object-fit:cover}
+.dialog-root .chat-media-viewer-step,.dialog-root .chat-media-viewer-play{position:absolute;display:grid;place-items:center;border:0;border-radius:100px;background:rgb(28 20 7/.48);backdrop-filter:blur(2px);-webkit-backdrop-filter:blur(2px);box-shadow:0 8px 16px rgb(28 20 7/.04)}
+.dialog-root .chat-media-viewer-step{top:calc(50% - 25px);width:48px;height:48px;padding-top:1px}
+.chat-media-viewer-step.is-previous{left:16px;padding-right:1px}
+.chat-media-viewer-step.is-next{right:16px;padding-left:1px}
+.chat-media-viewer-step img{width:16px;height:16px;max-width:none}
+.chat-media-viewer-filmstrip{position:absolute;left:20px;right:20px;bottom:50px;height:72px}
+.chat-media-viewer-filmstrip .mobile-carousel{height:72px}
+.chat-media-viewer-filmstrip-track{justify-content:center;gap:2px}
+.dialog-root .chat-media-viewer-filmstrip-track>button{flex:none;width:72px;height:72px;padding:4px;border:2px solid transparent;border-radius:24px;background:transparent}
+.dialog-root .chat-media-viewer-filmstrip-track>button[aria-pressed="true"]{border-color:white}
+.chat-media-viewer-filmstrip-track>button>img,.chat-media-viewer-filmstrip-track>button>video{display:block;width:60px;height:60px;border-radius:18px;object-fit:cover}
+.dialog-root .chat-media-viewer-play{left:calc(50% - 32px);top:calc(50% - 24px);width:64px;height:64px;padding:1px 0 0 1px}
+.chat-media-viewer-play img{width:20px;height:20px;max-width:none}
+.chat-media-viewer-pause{display:block;width:14px;height:20px;border-left:5px solid white;border-right:5px solid white}
+.chat-media-viewer-play.is-playing:not(:focus-visible){opacity:0}
+.chat-media-viewer-playback{position:absolute;left:20px;right:20px;bottom:50px;display:flex;align-items:center;gap:8px;height:48px}
+.chat-media-viewer-timeline{display:flex;align-items:center;gap:12px;flex:1;min-width:0;height:48px;padding:0 16px;border-radius:296px;background:rgb(255 255 255/.18);backdrop-filter:blur(2px);-webkit-backdrop-filter:blur(2px);box-shadow:0 8px 16px rgb(28 20 7/.04)}
+.chat-media-viewer-timeline>span{flex:none;width:36px;height:14px;font:500 13px/16.25px Gerbera,sans-serif;text-align:center}
+.chat-media-viewer-timeline>span:last-child{width:42px}
+.chat-media-viewer-timeline>input{display:block;flex:1;min-width:0;width:100%;height:32px;padding:0;margin:0;appearance:none;-webkit-appearance:none;background:transparent;cursor:pointer;touch-action:pan-y}
+.chat-media-viewer-timeline>input::-webkit-slider-runnable-track{height:8px;border-radius:4px;background:linear-gradient(to right,white var(--media-progress),rgb(28 20 7/.48) var(--media-progress))}
+.chat-media-viewer-timeline>input::-webkit-slider-thumb{appearance:none;-webkit-appearance:none;width:1px;height:8px;background:transparent}
+.chat-media-viewer-timeline>input::-moz-range-track{height:8px;border-radius:4px;background:rgb(28 20 7/.48)}
+.chat-media-viewer-timeline>input::-moz-range-progress{height:8px;border-radius:4px;background:white}
+.chat-media-viewer-timeline>input::-moz-range-thumb{width:1px;height:8px;border:0;background:transparent}
+.dialog-root .chat-media-viewer-playback>button{display:grid;place-items:center;flex:none;width:48px;height:48px;padding:1px 0 0;border:0;border-radius:100px;background:rgb(255 255 255/.18);backdrop-filter:blur(2px);-webkit-backdrop-filter:blur(2px)}
+.chat-media-viewer-playback>button>img{width:24px;height:24px;max-width:none}
+.chat-media-viewer button:focus-visible,.chat-media-viewer input:focus-visible{outline:2px solid white;outline-offset:-2px}
+.dialog-root .chat-message-row:has(.chat-media-consumed){display:none}
+html[data-chatus-native] .chat-media-caption textarea{font-size:16px}
+@media(prefers-reduced-transparency:reduce){.chat-media-once-cover{background:#7e6d72;backdrop-filter:none}.chat-attachment-menu,.chat-media-caption-field{background:#fff;backdrop-filter:none}.chat-media-preview-actions>button,.chat-media-once-hint>span{background:#51483d;backdrop-filter:none}}
+@media(prefers-contrast:more){.chat-media-caption-field{background:#fff;box-shadow:inset 0 0 0 1px #1c140770}.chat-media-caption textarea::placeholder{color:#1c1407}}
+
+/* Original media image-fill stack, without flattening offscreen UI exports. */
+.chat-media-taken-image{position:relative;display:block;width:100%;height:100%;overflow:clip}
+.chat-media-taken-image>img{position:absolute;inset:0;display:block;width:100%;height:100%;max-width:none;object-fit:fill;object-position:bottom}
+.chat-media-taken-image>img:nth-child(2){object-fit:cover;object-position:center}
+.chat-media-taken-image>img:nth-child(3){object-fit:contain;object-position:center}
+.chat-media-filmstrip-track>button>.chat-media-taken-image,.chat-media-viewer-filmstrip-track>button>.chat-media-taken-image{width:60px;height:60px;border-radius:18px}
+.chat-media-source-video-label{position:absolute;left:9px;top:9px}
+.chat-media-taken-label{position:absolute;right:69px;bottom:5px;display:flex;align-items:center;gap:2px;width:103px;height:20px;padding:5px 8px 4px 4px;border-radius:100px;background:rgb(0 0 0/.3);backdrop-filter:blur(25px);-webkit-backdrop-filter:blur(25px);color:white;font:500 11px/13.75px Gerbera,sans-serif;white-space:nowrap}
+
+.chat-media-taken-label>img{display:block;flex:none;width:16px;height:14px;max-width:none}
+
+/* Same source vector control as the text composer; no enlarged80px filtered export. */
+.dialog-root .chat-media-caption>.chat-media-send-vector{box-shadow:0 6px 16px #804f0a1f}
+.chat-media-caption>.chat-media-send-vector>img{left:0;top:0;width:48px;height:48px}

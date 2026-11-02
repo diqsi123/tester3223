@@ -1,0 +1,2937 @@
+[
+  {
+    "path": "source/.gitignore",
+    "size": 203,
+    "sha": "c875a7076524147ecf483ac8e71992ee59671546"
+  },
+  {
+    "path": "source/.openai/hosting.json",
+    "size": 31,
+    "sha": "47c28cb400bdab23565c9a36f833a675266221b3"
+  },
+  {
+    "path": "source/index.html",
+    "size": 450,
+    "sha": "982b0f3bd98d87b486356ef08b2decc0a28cf1a4"
+  },
+  {
+    "path": "source/mobile-runtime.lock.json",
+    "size": 2800,
+    "sha": "92bf3b0f8efe1ced15540689d5c76f7eec706217"
+  },
+  {
+    "path": "source/onboarding.html",
+    "size": 380,
+    "sha": "4d390a501970596ab9221c44ae17361b3e187170"
+  },
+  {
+    "path": "source/package-lock.json",
+    "size": 76953,
+    "sha": "24b88cb64223373f10875a9c4ab153ecdacc61b3"
+  },
+  {
+    "path": "source/package.json",
+    "size": 1094,
+    "sha": "8e2ce03ffe7573c5a69f2d49dfe6be944b564ce9"
+  },
+  {
+    "path": "source/playwright.config.ts",
+    "size": 539,
+    "sha": "04d4c8bf7d1ec6c664a8ef78b925f4d5dbe0a53c"
+  },
+  {
+    "path": "source/public/assets/android/Keyboard.png",
+    "size": 42695,
+    "sha": "bf959faf47b346c68a023c142cc3a17f455eb5da"
+  },
+  {
+    "path": "source/public/assets/android/Pixel10.png",
+    "size": 214337,
+    "sha": "2ba4a10d65f45c022ec27777b0d81bd330700a11"
+  },
+  {
+    "path": "source/public/assets/android/navigation-bar.svg",
+    "size": 542,
+    "sha": "9e795438d527a54f3e179d99d41b1b11a9957ca7"
+  },
+  {
+    "path": "source/public/assets/auth/alarm.svg",
+    "size": 1092,
+    "sha": "724ada60b7e670187579d6ff8b91ec467e96b9b1"
+  },
+  {
+    "path": "source/public/assets/auth/auth-age-surface.png",
+    "size": 2924,
+    "sha": "b61d2770e5a22519dad493c5f6d91e9e1f7952b1"
+  },
+  {
+    "path": "source/public/assets/auth/avatar-character-0-mobile.webp",
+    "size": 259142,
+    "sha": "ed50422b9f4ad0f71a2403280a4ab004f6a4006f"
+  },
+  {
+    "path": "source/public/assets/auth/avatar-character-0.png",
+    "size": 519458,
+    "sha": "63f7a0dc4fd0998e3c37ebad5ce328ee6736222a"
+  },
+  {
+    "path": "source/public/assets/auth/avatar-character-1-mobile.webp",
+    "size": 187372,
+    "sha": "6c98ddfb2ab1b26140ac9e9decdfac50e15df49b"
+  },
+  {
+    "path": "source/public/assets/auth/avatar-character-1.png",
+    "size": 980454,
+    "sha": "49d0b528758ca1804e404ee90403fda4c02bcbc7"
+  },
+  {
+    "path": "source/public/assets/auth/avatar-character-2-mobile.webp",
+    "size": 190818,
+    "sha": "be7cf20cb73172f43d4c63077048b7f200a3c170"
+  },
+  {
+    "path": "source/public/assets/auth/avatar-character-2.png",
+    "size": 390327,
+    "sha": "6325d6e480cac140515679d47656703b4153eab4"
+  },
+  {
+    "path": "source/public/assets/auth/avatar-character-3-mobile.webp",
+    "size": 228946,
+    "sha": "360234ecdd5d6295533e197f9833d62d4efbbda8"
+  },
+  {
+    "path": "source/public/assets/auth/avatar-character-3.png",
+    "size": 426665,
+    "sha": "e3d8aeaec011d82a6a3d903be5f6484fc4f9be18"
+  },
+  {
+    "path": "source/public/assets/auth/avatar-character-4-mobile.webp",
+    "size": 211962,
+    "sha": "9d7a6a1cddb3016705d2bd0059a0c2004ac4d138"
+  },
+  {
+    "path": "source/public/assets/auth/avatar-character-4.png",
+    "size": 1997427,
+    "sha": "9588db2010dd6b48b639f93fd75ab7fdc1c00be1"
+  },
+  {
+    "path": "source/public/assets/auth/avatar-character-5-mobile.webp",
+    "size": 254854,
+    "sha": "e225ad4a6f4a71d45bf8bd1bed2c2d552cff37a6"
+  },
+  {
+    "path": "source/public/assets/auth/avatar-character-5.png",
+    "size": 460895,
+    "sha": "e95e9851a91c22aa2097ef8f83c9826428d560d7"
+  },
+  {
+    "path": "source/public/assets/auth/avatar-character-6-mobile.webp",
+    "size": 215672,
+    "sha": "7baabfb9ca775381da80d1c59f63165d641d8223"
+  },
+  {
+    "path": "source/public/assets/auth/avatar-character-6.png",
+    "size": 369037,
+    "sha": "f88deeb153513dd72a61c75708800c3ef69f9055"
+  },
+  {
+    "path": "source/public/assets/auth/avatar-character-7-mobile.webp",
+    "size": 223928,
+    "sha": "ccc85363a06d7a74caee98ade20c0b7938158665"
+  },
+  {
+    "path": "source/public/assets/auth/avatar-character-7.png",
+    "size": 429015,
+    "sha": "a492f55c47bba185dc03e4030f3bca04bdee0b92"
+  },
+  {
+    "path": "source/public/assets/auth/back.svg",
+    "size": 252,
+    "sha": "3f6d4a38d3d45f16bbd2553ceacd5fceac5b6182"
+  },
+  {
+    "path": "source/public/assets/auth/check.svg",
+    "size": 780,
+    "sha": "a3bb2ed27f231a307ba11a73534ff9825f2b2162"
+  },
+  {
+    "path": "source/public/assets/auth/delete.svg",
+    "size": 1606,
+    "sha": "320eaff43c4399244cfc8a8034894ef83b577c56"
+  },
+  {
+    "path": "source/public/assets/auth/dice.svg",
+    "size": 1601,
+    "sha": "32c95d6d5fb77093d850d92a8ffb634b1f2834a6"
+  },
+  {
+    "path": "source/public/assets/auth/gender-female.png",
+    "size": 17286,
+    "sha": "8fffc0ce4171a3a6a7597d65130722ff173b9c58"
+  },
+  {
+    "path": "source/public/assets/auth/gender-male.png",
+    "size": 15473,
+    "sha": "07fff99533bc82006923ea18e0a9d0d991ea81cc"
+  },
+  {
+    "path": "source/public/assets/auth/interest-anime.svg",
+    "size": 1472,
+    "sha": "de95d7a6231f3cfa6951c281bbd1653b65edcd07"
+  },
+  {
+    "path": "source/public/assets/auth/interest-art.svg",
+    "size": 1784,
+    "sha": "1958d9c40f8ef5b4d4f548c60a3da2d8cbd703a2"
+  },
+  {
+    "path": "source/public/assets/auth/interest-books.svg",
+    "size": 1406,
+    "sha": "f391db3345c07766a8bc390f95e3c6c42039b4bc"
+  },
+  {
+    "path": "source/public/assets/auth/interest-cinema.svg",
+    "size": 3206,
+    "sha": "5e4e5546e133f2125e23ddfc5cb0bf69263a022f"
+  },
+  {
+    "path": "source/public/assets/auth/interest-cook.svg",
+    "size": 591,
+    "sha": "4ffc8c68efa15fa30c32b1ef4853d766a0e05b53"
+  },
+  {
+    "path": "source/public/assets/auth/interest-esotericism.svg",
+    "size": 1927,
+    "sha": "e3e49343117686373353c8c7ba7545082392a9e2"
+  },
+  {
+    "path": "source/public/assets/auth/interest-fashion.svg",
+    "size": 1425,
+    "sha": "87db3d6689d891cce8a9a0c0c5aa6cdc1b92408f"
+  },
+  {
+    "path": "source/public/assets/auth/interest-flirting.svg",
+    "size": 1328,
+    "sha": "282c02189800a3772bef3ac326b8d7cdcd884ddc"
+  },
+  {
+    "path": "source/public/assets/auth/interest-games.svg",
+    "size": 1969,
+    "sha": "a8394add9c6d98e1125717b8a37785e56599f1b6"
+  },
+  {
+    "path": "source/public/assets/auth/interest-meme.svg",
+    "size": 2127,
+    "sha": "05b46916bda9063134d81c69fbfa8fd85eb63c62"
+  },
+  {
+    "path": "source/public/assets/auth/interest-music.svg",
+    "size": 526,
+    "sha": "6ace382eac4ac4aedc609990bcc96648c02c7347"
+  },
+  {
+    "path": "source/public/assets/auth/interest-pets.svg",
+    "size": 5570,
+    "sha": "e3a4308984c9b6283023211c3d236b76a3d3b3c2"
+  },
+  {
+    "path": "source/public/assets/auth/interest-photo.svg",
+    "size": 615,
+    "sha": "ec77150c2455f66bcac3c853ce3837c79338c8b6"
+  },
+  {
+    "path": "source/public/assets/auth/interest-role-playing.svg",
+    "size": 3768,
+    "sha": "42fb3abb674799cab3d59547ddb6e22468073433"
+  },
+  {
+    "path": "source/public/assets/auth/interest-sports.svg",
+    "size": 1019,
+    "sha": "9012c384722d593a0880dc4f0d562cb56f02c07a"
+  },
+  {
+    "path": "source/public/assets/auth/interest-technology.svg",
+    "size": 1721,
+    "sha": "138feeeebdff476de7c4530d5a49e58b6b07a90c"
+  },
+  {
+    "path": "source/public/assets/auth/interest-travel.svg",
+    "size": 1348,
+    "sha": "c923892eac9784764de1708e5a278a230a27ae7e"
+  },
+  {
+    "path": "source/public/assets/auth/nickname-check-source.svg",
+    "size": 780,
+    "sha": "bd77b927803bc5d44b4c150b3854ede16df4c232"
+  },
+  {
+    "path": "source/public/assets/auth/no-internet.svg",
+    "size": 1656,
+    "sha": "c6490e632366d9b25652f8d783962dc6367fd019"
+  },
+  {
+    "path": "source/public/assets/auth/notification-close.svg",
+    "size": 784,
+    "sha": "0c91d0ef9da9fe9d8717352751de0c1d5fc37dc0"
+  },
+  {
+    "path": "source/public/assets/auth/notification-green-source.svg",
+    "size": 6941,
+    "sha": "037311f1475a5dc0f10667ea65646743369093ab"
+  },
+  {
+    "path": "source/public/assets/auth/notification-green.png",
+    "size": 18779,
+    "sha": "6e3ee082296dd5bf8060844e24ae8a34d5246a90"
+  },
+  {
+    "path": "source/public/assets/auth/notification-white-source.svg",
+    "size": 6203,
+    "sha": "5e620e7e73d26b9a0fc1d25438a6de016de3581a"
+  },
+  {
+    "path": "source/public/assets/auth/notification-white.png",
+    "size": 8476,
+    "sha": "e17143a9075ef9d3a5481a0c429e4b8a4e1ba35e"
+  },
+  {
+    "path": "source/public/assets/auth/offline-heart.svg",
+    "size": 695,
+    "sha": "380f0c359ad2dc3625e8063c15869070bc77bf00"
+  },
+  {
+    "path": "source/public/assets/auth/offline-wordmark.svg",
+    "size": 6528,
+    "sha": "25f259c2c2fe5b91adaeec913bc96adcfe30409a"
+  },
+  {
+    "path": "source/public/assets/auth/profile-age-surface.png",
+    "size": 7660,
+    "sha": "baca6fe65965f3bdb4ec391c576d7c3883a1eca0"
+  },
+  {
+    "path": "source/public/assets/auth/profile-female.svg",
+    "size": 262,
+    "sha": "5b320f429f44f48d4782c2205f1188bb6fa698cb"
+  },
+  {
+    "path": "source/public/assets/auth/profile-male.svg",
+    "size": 1335,
+    "sha": "f4f586d91fcde733c37948c6873a01f65d7a06cf"
+  },
+  {
+    "path": "source/public/assets/auth/profile-separator.svg",
+    "size": 171,
+    "sha": "83691cac23b2d8e0113cc36abb7fcc50f64a14d1"
+  },
+  {
+    "path": "source/public/assets/auth/questionnaire-glow-gold.png",
+    "size": 190910,
+    "sha": "ee365261945675b0d8183b60ee6c5b8b6ab95228"
+  },
+  {
+    "path": "source/public/assets/auth/questionnaire-glow.png",
+    "size": 231003,
+    "sha": "251ffbfec915cd2fb5c0785d52654bcfdaab521d"
+  },
+  {
+    "path": "source/public/assets/chat/checks.svg",
+    "size": 1415,
+    "sha": "b4c1129387757734a0395ef0efa68c0b98956c0e"
+  },
+  {
+    "path": "source/public/assets/chat/circle/record-delete.svg",
+    "size": 568,
+    "sha": "b60e829e634f834eef5bb801b06d6ccddf3b2bd9"
+  },
+  {
+    "path": "source/public/assets/chat/composer-multiline.svg",
+    "size": 583,
+    "sha": "0a581cb6eca60adf940d825e3f6251030eda2abc"
+  },
+  {
+    "path": "source/public/assets/chat/composer-reply.svg",
+    "size": 584,
+    "sha": "bad47c7ddd46138b2d943b39a3b587fa3762e865"
+  },
+  {
+    "path": "source/public/assets/chat/correction/avatar-random.svg",
+    "size": 1707,
+    "sha": "d08254666fb16b8a083c04f83bd777ce487b50bd"
+  },
+  {
+    "path": "source/public/assets/chat/correction/record-once.svg",
+    "size": 2164,
+    "sha": "fdf419dbac9c03130739f0033a00e5497001e18a"
+  },
+  {
+    "path": "source/public/assets/chat/correction/sticker-0.png",
+    "size": 207531,
+    "sha": "abe5cdbadcb1b8e518e152715467950f2ec63da3"
+  },
+  {
+    "path": "source/public/assets/chat/correction/sticker-1.png",
+    "size": 265738,
+    "sha": "68e5c1963e549cd5de58b51a088fce2ac29a78ed"
+  },
+  {
+    "path": "source/public/assets/chat/correction/sticker-2.png",
+    "size": 178558,
+    "sha": "49cab702d4e683090b98dc8f9e372b2cc40c639e"
+  },
+  {
+    "path": "source/public/assets/chat/correction/sticker-3.png",
+    "size": 309604,
+    "sha": "70d11e52a0a4e04b9b4622d250f82a3f71062008"
+  },
+  {
+    "path": "source/public/assets/chat/correction/sticker-4.png",
+    "size": 296879,
+    "sha": "33f90f7fac5578617a4b592d9a3a3ec8f49ae514"
+  },
+  {
+    "path": "source/public/assets/chat/correction/sticker-5.png",
+    "size": 254085,
+    "sha": "e8136cdbe7b90fc83ed69966a80c9b1f13913e6a"
+  },
+  {
+    "path": "source/public/assets/chat/correction/sticker-6.png",
+    "size": 290338,
+    "sha": "833f382e63b6fbe55fcbb6569da91650c93d8cb8"
+  },
+  {
+    "path": "source/public/assets/chat/correction/sticker-7.png",
+    "size": 198281,
+    "sha": "8d22e632e8a448dbbc03628f83f73d2cf2c99009"
+  },
+  {
+    "path": "source/public/assets/chat/correction/tooltip-nose.svg",
+    "size": 358,
+    "sha": "d2d953715143cce2695f716a267bca54654ecc6b"
+  },
+  {
+    "path": "source/public/assets/chat/feedback/avatar-source-2x.png",
+    "size": 36833,
+    "sha": "cce0fd729fb034b211afd4bb447f78f2930b4854"
+  },
+  {
+    "path": "source/public/assets/chat/feedback/pending-mask.svg",
+    "size": 551,
+    "sha": "a7e5a9dbbca6b1bcb610468637293c1bec762810"
+  },
+  {
+    "path": "source/public/assets/chat/feedback/pending-source.png",
+    "size": 1497,
+    "sha": "aadc6bbd0ae0ef54a64dc0077d147fb0cde61a5d"
+  },
+  {
+    "path": "source/public/assets/chat/feedback/rating-dislike-selected.svg",
+    "size": 931,
+    "sha": "2beed09dee23d060ff296c4bfb8200273771a3a1"
+  },
+  {
+    "path": "source/public/assets/chat/feedback/rating-dislike.svg",
+    "size": 933,
+    "sha": "91d5f352d496496ab2d87276d5cb944536dfe2b0"
+  },
+  {
+    "path": "source/public/assets/chat/feedback/rating-like-selected.svg",
+    "size": 930,
+    "sha": "ed9cc4f10d105d75c5f597b09fdca141ea05161e"
+  },
+  {
+    "path": "source/public/assets/chat/feedback/rating-like.svg",
+    "size": 932,
+    "sha": "4130b6c9fa8d7d26a0437b5868a9f643d4090c48"
+  },
+  {
+    "path": "source/public/assets/chat/lock-locked.svg",
+    "size": 3358,
+    "sha": "c4610e444d752b0ae04713329b008ca669278b93"
+  },
+  {
+    "path": "source/public/assets/chat/lock.svg",
+    "size": 3471,
+    "sha": "f7069a067372586d50cf307ad853ce5f470a1841"
+  },
+  {
+    "path": "source/public/assets/chat/mobile/attachment-camera.svg",
+    "size": 3592,
+    "sha": "bac44b8b500ae0cbb5a5786b218c94b752e1f61c"
+  },
+  {
+    "path": "source/public/assets/chat/mobile/attachment-files.svg",
+    "size": 1537,
+    "sha": "b253e469cce5cece691eb6cc840bd21d6d344877"
+  },
+  {
+    "path": "source/public/assets/chat/mobile/attachment-library.svg",
+    "size": 2739,
+    "sha": "ae746e10c337050803e8c8c4b40792c472f6bb5c"
+  },
+  {
+    "path": "source/public/assets/chat/mobile/copy.svg",
+    "size": 22048,
+    "sha": "d24c0ab2f7ab19c3b9b7dd966f43987a5e22420a"
+  },
+  {
+    "path": "source/public/assets/chat/mobile/delete.svg",
+    "size": 14676,
+    "sha": "55418f2a693319df97f527c89f2322ea6675a60a"
+  },
+  {
+    "path": "source/public/assets/chat/mobile/dislike-selected.svg",
+    "size": 1077,
+    "sha": "f6f537dff65fce83a597481bc832f38687c574e6"
+  },
+  {
+    "path": "source/public/assets/chat/mobile/edit-check.svg",
+    "size": 883,
+    "sha": "6925a427037ff85c2fb94ad962e1452817bd7e8c"
+  },
+  {
+    "path": "source/public/assets/chat/mobile/edit.svg",
+    "size": 2175,
+    "sha": "08a70db189382b81523b0f3e6337a9d3b3e6ef92"
+  },
+  {
+    "path": "source/public/assets/chat/mobile/friend-accept.svg",
+    "size": 1651,
+    "sha": "ce5f99ba94bd72d748cc76add187e39f60416d32"
+  },
+  {
+    "path": "source/public/assets/chat/mobile/friend-decline.svg",
+    "size": 1326,
+    "sha": "0c60e104c953767d169c56854be1f658253ea173"
+  },
+  {
+    "path": "source/public/assets/chat/mobile/friend-request.png",
+    "size": 4076,
+    "sha": "be55e76b420ce092d15b1b8da4e018ecc4819f69"
+  },
+  {
+    "path": "source/public/assets/chat/mobile/like-selected.svg",
+    "size": 1076,
+    "sha": "173fc81c3464bd51c1e9e7b466a73ab78a33db11"
+  },
+  {
+    "path": "source/public/assets/chat/mobile/media-close.svg",
+    "size": 784,
+    "sha": "2c586b4da36b14e94500da5b090afd13e3790624"
+  },
+  {
+    "path": "source/public/assets/chat/mobile/media-more.svg",
+    "size": 642,
+    "sha": "5891bdd71b543ef7a8d8c697edc117254c853be6"
+  },
+  {
+    "path": "source/public/assets/chat/mobile/media-once.svg",
+    "size": 2159,
+    "sha": "521c10ed4e787319b7b2c2ffced0700920800d80"
+  },
+  {
+    "path": "source/public/assets/chat/mobile/next-white-source.svg",
+    "size": 1903,
+    "sha": "69acffb8801157a8c21013e78465f0078da902e8"
+  },
+  {
+    "path": "source/public/assets/chat/mobile/next-white.svg",
+    "size": 1908,
+    "sha": "3984d6b1c1e32a3246607e57073f26f8a4bee246"
+  },
+  {
+    "path": "source/public/assets/chat/mobile/peer-cap.png",
+    "size": 1180883,
+    "sha": "c676fe9c0eb75acc0dcafe49e917b1fbff2c1df1"
+  },
+  {
+    "path": "source/public/assets/chat/mobile/reaction-bar.svg",
+    "size": 189286,
+    "sha": "30a6bb1c9ed7f6301af3cbfd3cbe62ff60325efd"
+  },
+  {
+    "path": "source/public/assets/chat/mobile/reply.svg",
+    "size": 4652,
+    "sha": "5f5e2999bf5da06c032c77487f33b22f86a2e045"
+  },
+  {
+    "path": "source/public/assets/chat/mobile/report.svg",
+    "size": 2038,
+    "sha": "968eb7584c8cefac213f8f5c6606e76e5f51a450"
+  },
+  {
+    "path": "source/public/assets/chat/mobile/status-accepted.svg",
+    "size": 1980,
+    "sha": "382bfe5473ff3bf83fea3f423b8520869b8bfff8"
+  },
+  {
+    "path": "source/public/assets/chat/mobile/status-declined.svg",
+    "size": 1986,
+    "sha": "c5c0cee05b9910fd31fc77cd75cba712f81e572f"
+  },
+  {
+    "path": "source/public/assets/chat/mobile/status-pending.svg",
+    "size": 5483,
+    "sha": "0974f7225dd4193635ef758695b5418d59060ef1"
+  },
+  {
+    "path": "source/public/assets/chat/play.svg",
+    "size": 564,
+    "sha": "e7250774df5d2336051d9dc5e251877c9fd388da"
+  },
+  {
+    "path": "source/public/assets/chat/record-glow.svg",
+    "size": 4297,
+    "sha": "54e0d6efa70a5b0d37d8aab63df9288d35d01af4"
+  },
+  {
+    "path": "source/public/assets/chat/reply-close.svg",
+    "size": 687,
+    "sha": "509f415b472deb89ef222bb1243be225cefc4672"
+  },
+  {
+    "path": "source/public/assets/chat/send-action.svg",
+    "size": 4120,
+    "sha": "dea6bccb152288504e542ec9f3c0127a91adc259"
+  },
+  {
+    "path": "source/public/assets/chat/send-vector-a0a31a2ac9.svg",
+    "size": 1167,
+    "sha": "c4df646a5eec3233e4d020f94151a14d642cf04c"
+  },
+  {
+    "path": "source/public/assets/chat/send.svg",
+    "size": 1367,
+    "sha": "a0f6d2945270c551a2ff4f6fa40c8ec598320878"
+  },
+  {
+    "path": "source/public/assets/chat/transcribe-out.svg",
+    "size": 1521,
+    "sha": "9253cd6e52adbd099033827992c2f315d2a862c4"
+  },
+  {
+    "path": "source/public/assets/chat/transcribe.svg",
+    "size": 1525,
+    "sha": "301803c953166163159de1c0f64eac7caa45a52e"
+  },
+  {
+    "path": "source/public/assets/chat/trash.svg",
+    "size": 1567,
+    "sha": "d151edbfed70a57e69213d516bee1dfa20ff6154"
+  },
+  {
+    "path": "source/public/assets/chat/voice-bg-in.svg",
+    "size": 2202,
+    "sha": "b248f702ca767fd69f1ce19eef1b86f61cc4494a"
+  },
+  {
+    "path": "source/public/assets/chat/voice-bg-out.svg",
+    "size": 1520,
+    "sha": "7fe5738ecb4bdb5a4771437f3c7c0c563f08e2c6"
+  },
+  {
+    "path": "source/public/assets/chat/voice-long-demo.wav",
+    "size": 220544,
+    "sha": "3aed7aa04f5a3d03aba4bb327fca8e61996fbda1"
+  },
+  {
+    "path": "source/public/assets/chat/voice-play-in.svg",
+    "size": 2659,
+    "sha": "ec376ce07f9d05dfe4f4c12eecb5003e51d0308a"
+  },
+  {
+    "path": "source/public/assets/chat/voice-play-out.svg",
+    "size": 1983,
+    "sha": "21e207d227877d3c162ca5f4ac967bb177d77e8e"
+  },
+  {
+    "path": "source/public/assets/chat/voice-short-demo.wav",
+    "size": 44144,
+    "sha": "8f3c3d41ec926a169cb8f33e327e23b980fb5912"
+  },
+  {
+    "path": "source/public/assets/chat-circle/SOURCES.md",
+    "size": 862,
+    "sha": "b4d5c0c7739869a43494ed8c1efc8b857bf10eea"
+  },
+  {
+    "path": "source/public/assets/chat-circle/checks.svg",
+    "size": 1550,
+    "sha": "5a3158017139b372c456e41d8ec4fca4eb06d127"
+  },
+  {
+    "path": "source/public/assets/chat-circle/chevron-up.svg",
+    "size": 600,
+    "sha": "404950e351f820698ca38b7d3219bdaed279024e"
+  },
+  {
+    "path": "source/public/assets/chat-circle/delete.svg",
+    "size": 568,
+    "sha": "b60e829e634f834eef5bb801b06d6ccddf3b2bd9"
+  },
+  {
+    "path": "source/public/assets/chat-circle/flower-demo.mp4",
+    "size": 1128375,
+    "sha": "bd91051dc5b10dc351ea06e5430dd335fb1ffb14"
+  },
+  {
+    "path": "source/public/assets/chat-circle/lock-open.svg",
+    "size": 954,
+    "sha": "f8db08677e58289b7b1b5e88f2a54c62a5e2d867"
+  },
+  {
+    "path": "source/public/assets/chat-circle/lock.svg",
+    "size": 1166,
+    "sha": "0361926c3cc1474900f598bedebdf137f4c02eda"
+  },
+  {
+    "path": "source/public/assets/chat-circle/mute.svg",
+    "size": 1063,
+    "sha": "dbeb75322e507e71342e4b771b6d055f8eeee0ea"
+  },
+  {
+    "path": "source/public/assets/chat-circle/once-cover.svg",
+    "size": 4623,
+    "sha": "b127bef83d97426f845bd529274ec5c618336e73"
+  },
+  {
+    "path": "source/public/assets/chat-circle/once-filled.svg",
+    "size": 4650,
+    "sha": "e699f2a38a137692016ea937de01d667f90161a1"
+  },
+  {
+    "path": "source/public/assets/chat-circle/once-outline.svg",
+    "size": 2164,
+    "sha": "fdf419dbac9c03130739f0033a00e5497001e18a"
+  },
+  {
+    "path": "source/public/assets/chat-circle/poster.png",
+    "size": 2426641,
+    "sha": "4ff3c2d6dab253c35f223d7bb92aaec413d77dad"
+  },
+  {
+    "path": "source/public/assets/chat-circle/poster.webp",
+    "size": 1688864,
+    "sha": "e22d8c73beffa4bf33202f8c7660e863fbdf51cc"
+  },
+  {
+    "path": "source/public/assets/chat-circle/progress.svg",
+    "size": 666,
+    "sha": "86c7e8d4e9f74fdc8c7cf8470ca53bd1acabd7fa"
+  },
+  {
+    "path": "source/public/assets/chat-circle/reaction-heart.png",
+    "size": 1653,
+    "sha": "575107885862014d6907c3f4b81741c7c969761f"
+  },
+  {
+    "path": "source/public/assets/chat-circle/reaction-smile.svg",
+    "size": 34159,
+    "sha": "05e9492237d768fe30c27e0ab18fb75045241b84"
+  },
+  {
+    "path": "source/public/assets/chat-circle/recording-dot.svg",
+    "size": 243,
+    "sha": "1c382efa38d1e6f96ac7c58f04e80b168b37072c"
+  },
+  {
+    "path": "source/public/assets/chat-circle/send-glyph-2988cc9bfc.svg",
+    "size": 732,
+    "sha": "6a2ed6a624dd0af5cdee64eceb8f98c55e8387b5"
+  },
+  {
+    "path": "source/public/assets/chat-circle/send.svg",
+    "size": 1504,
+    "sha": "0cf0d33a6f23fc6b7febac5570d6375aef48e46e"
+  },
+  {
+    "path": "source/public/assets/chat-circle/switch-camera.svg",
+    "size": 696,
+    "sha": "4e4d63496d03091fe7b2baea06613b8c9140f732"
+  },
+  {
+    "path": "source/public/assets/chat-circle/video.svg",
+    "size": 1837,
+    "sha": "ea47e2a871cb4cd4d0e142b9a124ef0c4aa53060"
+  },
+  {
+    "path": "source/public/assets/chat-circle/viewed.png",
+    "size": 225896,
+    "sha": "b36e9a67cdf4f700c8eb2532a949551be9f0cd97"
+  },
+  {
+    "path": "source/public/assets/chat-media/once-filled.svg",
+    "size": 4576,
+    "sha": "5ef4130831564b36887e9a22051ab45b78f8bb35"
+  },
+  {
+    "path": "source/public/assets/chat-media/once-message.svg",
+    "size": 4623,
+    "sha": "b127bef83d97426f845bd529274ec5c618336e73"
+  },
+  {
+    "path": "source/public/assets/chat-media/once-noise-2x.png",
+    "size": 66349,
+    "sha": "4035a4c44fcb36c7ebec524168f6fcb878bddd2f"
+  },
+  {
+    "path": "source/public/assets/chat-media/once-noise-source.svg",
+    "size": 2063,
+    "sha": "21df2d226fc2ed91891d1a42640f6007549e1580"
+  },
+  {
+    "path": "source/public/assets/chat-media/source-album-1.webp",
+    "size": 1116320,
+    "sha": "a8993e6a940097084205520051e538ebf9f0f715"
+  },
+  {
+    "path": "source/public/assets/chat-media/source-album-2.webp",
+    "size": 917670,
+    "sha": "ed25e62db24b4f07b059b0c879bb671303cbcf15"
+  },
+  {
+    "path": "source/public/assets/chat-media/source-captured-clock.svg",
+    "size": 1417,
+    "sha": "4d8764b5d0f7592417ab3c98d008e3548f38217d"
+  },
+  {
+    "path": "source/public/assets/chat-media/source-once.webp",
+    "size": 763486,
+    "sha": "a336d45bf309c7c655c5be939d40e239a46e00c2"
+  },
+  {
+    "path": "source/public/assets/chat-media/source-sticker.webp",
+    "size": 212140,
+    "sha": "6f12b747d88e35074ec5ced79e1fe133868a9622"
+  },
+  {
+    "path": "source/public/assets/chat-media/source-taken-background.webp",
+    "size": 610464,
+    "sha": "553195f2cb01623ccb7b3c5375546876837c9e5d"
+  },
+  {
+    "path": "source/public/assets/chat-media/source-taken-cover.webp",
+    "size": 240312,
+    "sha": "87e9711f648557028971e2d41477f6590519ced6"
+  },
+  {
+    "path": "source/public/assets/chat-media/source-taken-front.webp",
+    "size": 1193078,
+    "sha": "6c947c7d19fe5e8053d0176bb485ca9a608f60a0"
+  },
+  {
+    "path": "source/public/assets/chat-media/source-video-mark.svg",
+    "size": 1118,
+    "sha": "959c6c9ab6877f307dc38e40935bdc36aa1d426c"
+  },
+  {
+    "path": "source/public/assets/chat-media/source-video-poster.webp",
+    "size": 685980,
+    "sha": "12e1ced7956a7c38942e27fe1a5d1539c1d8e651"
+  },
+  {
+    "path": "source/public/assets/chat-media/tooltip-nose.svg",
+    "size": 358,
+    "sha": "d2d953715143cce2695f716a267bca54654ecc6b"
+  },
+  {
+    "path": "source/public/assets/chat-media/viewer-badge.svg",
+    "size": 1069,
+    "sha": "3da5056ffe2b15f8ffe285c6b2c2a17a0ed8fb1c"
+  },
+  {
+    "path": "source/public/assets/chat-media/viewer-fullscreen.svg",
+    "size": 1933,
+    "sha": "0cec8dbacc39d299a8de056157a23ed8a0b0e6c9"
+  },
+  {
+    "path": "source/public/assets/chat-media/viewer-next.svg",
+    "size": 356,
+    "sha": "2116580ecf28f8390ddff4b3d8b0486eba9f4474"
+  },
+  {
+    "path": "source/public/assets/chat-media/viewer-play.svg",
+    "size": 672,
+    "sha": "d6f1c8a091fea60b68dab98d0e6cdd60664fb025"
+  },
+  {
+    "path": "source/public/assets/chat-media/viewer-prev.svg",
+    "size": 333,
+    "sha": "a7b020cb7824a57fb08180f1587339b0fedad0ce"
+  },
+  {
+    "path": "source/public/assets/chat-picker/soft-edge-mask.svg",
+    "size": 521,
+    "sha": "0b172f7879432dc4b0897ce34c8a046ed5155a3b"
+  },
+  {
+    "path": "source/public/assets/chat-picker/sticker-0.png",
+    "size": 32861,
+    "sha": "282762f83832f89f6cc61e391d2351047af50f5e"
+  },
+  {
+    "path": "source/public/assets/chat-picker/sticker-1.png",
+    "size": 29439,
+    "sha": "8392de43a5c9a1b9bc578a2ca1992a139267f665"
+  },
+  {
+    "path": "source/public/assets/chat-picker/sticker-2.png",
+    "size": 25009,
+    "sha": "40bcd622fb4d0f7c9ca246c9f2eba89644e0e9c5"
+  },
+  {
+    "path": "source/public/assets/chat-picker/sticker-3.png",
+    "size": 52571,
+    "sha": "b85625582a7d8f1714140e381c7c2021e194079b"
+  },
+  {
+    "path": "source/public/assets/chat-picker/sticker-4.png",
+    "size": 37118,
+    "sha": "ae7a851985bb17c52ecad4fa6e3b809b5edfec26"
+  },
+  {
+    "path": "source/public/assets/chat-picker/sticker-5.png",
+    "size": 35930,
+    "sha": "3e9d9f6d0a6169dc6d18c0764cf53bc42bb8c4e8"
+  },
+  {
+    "path": "source/public/assets/chat-picker/sticker-6.png",
+    "size": 37411,
+    "sha": "8d5a4a85eb0161971368bcb69fc98915d2766035"
+  },
+  {
+    "path": "source/public/assets/chat-picker/sticker-7.png",
+    "size": 30865,
+    "sha": "80af6901726cd2a67c975ffdaf27f8336f49cbd9"
+  },
+  {
+    "path": "source/public/assets/chat-picker/stickers-label.svg",
+    "size": 5190,
+    "sha": "42b2d9d2750d00733bae609721c5824c9a3ecd7a"
+  },
+  {
+    "path": "source/public/assets/chatus/Gerbera-Bold.otf",
+    "size": 210768,
+    "sha": "291b2c21288c30830bb1ab8157f457cfe78fdb07"
+  },
+  {
+    "path": "source/public/assets/chatus/Gerbera-Medium.otf",
+    "size": 210880,
+    "sha": "5d4e94eb1f34956c95dab29725459bd108796076"
+  },
+  {
+    "path": "source/public/assets/chatus/Gerbera-Regular.otf",
+    "size": 204956,
+    "sha": "cde34d2839b473fa1b9f111e0de72be6fc91f44f"
+  },
+  {
+    "path": "source/public/assets/chatus/HeadingPro-HeavyItalic.otf",
+    "size": 82548,
+    "sha": "15259a3b33cb0de3602a16499c2f41fcc91076b0"
+  },
+  {
+    "path": "source/public/assets/chatus/any.svg",
+    "size": 2880,
+    "sha": "9833677a74c9128341ec3de2b174e3361286f5b2"
+  },
+  {
+    "path": "source/public/assets/chatus/avatar.png",
+    "size": 4254,
+    "sha": "fc0be0720211ad1e093fe721226b3731c418f00f"
+  },
+  {
+    "path": "source/public/assets/chatus/background.png",
+    "size": 46470,
+    "sha": "c857c68f1de61605f351c303538ec9a7dd2c47c5"
+  },
+  {
+    "path": "source/public/assets/chatus/books.svg",
+    "size": 1173,
+    "sha": "e4ff459bc0e1fad8a96b2d2bd4d294b38be172ac"
+  },
+  {
+    "path": "source/public/assets/chatus/character-contour.png",
+    "size": 57265,
+    "sha": "1cbb94069f8bc836160cdfcf3cca32a2ed5e6899"
+  },
+  {
+    "path": "source/public/assets/chatus/character-mask.png",
+    "size": 14267,
+    "sha": "f5d98aff17d4cf050bed4bd37b144699d052d463"
+  },
+  {
+    "path": "source/public/assets/chatus/character-original.png",
+    "size": 76403,
+    "sha": "d51305dfe936349216cf8c7df8161506d797a201"
+  },
+  {
+    "path": "source/public/assets/chatus/chats.svg",
+    "size": 1036,
+    "sha": "804410fba2c3f4f8c0e4f8b8502ae52631843ede"
+  },
+  {
+    "path": "source/public/assets/chatus/cinema.svg",
+    "size": 3088,
+    "sha": "935f8fb03fae22c37f7c6fac789c95374550f8fa"
+  },
+  {
+    "path": "source/public/assets/chatus/diamond.svg",
+    "size": 987,
+    "sha": "03cbe0a849c9eed09ed4ccc6f1a67527aae8aa94"
+  },
+  {
+    "path": "source/public/assets/chatus/female.svg",
+    "size": 1614,
+    "sha": "e47e82a473c9607c11a66b79cf572e9c754a766e"
+  },
+  {
+    "path": "source/public/assets/chatus/filter.svg",
+    "size": 471,
+    "sha": "c74e64903f89def50bedf089ff1337ac36447481"
+  },
+  {
+    "path": "source/public/assets/chatus/games.svg",
+    "size": 1865,
+    "sha": "d3056d7647cec9b7a6f9127f91fe9aa68dd8fb61"
+  },
+  {
+    "path": "source/public/assets/chatus/male.svg",
+    "size": 2154,
+    "sha": "2d4be66d9f0aae3d0a21ed5d21e3904ae3ab25ac"
+  },
+  {
+    "path": "source/public/assets/chatus/music.svg",
+    "size": 488,
+    "sha": "00b46f842fc687b74890ea4d949f52f58a4e3f08"
+  },
+  {
+    "path": "source/public/assets/chatus/online.svg",
+    "size": 987,
+    "sha": "8a1d867db7556095cf3a22c308480916e22c1f8b"
+  },
+  {
+    "path": "source/public/assets/chatus/plus.svg",
+    "size": 4568,
+    "sha": "cd1e4cbad31152dd0ebc580927ff0aecdcb84485"
+  },
+  {
+    "path": "source/public/assets/chatus/profile.svg",
+    "size": 1975,
+    "sha": "377922eccde7091bdb2042b990a37c3af0793abc"
+  },
+  {
+    "path": "source/public/assets/chatus/scene.png",
+    "size": 94203,
+    "sha": "b9841f27772a2803ac730cc86a9eff1ffdf469ea"
+  },
+  {
+    "path": "source/public/assets/chatus/search-light.svg",
+    "size": 5460,
+    "sha": "5d113c6db6169a188e8feedba9febce361e3d7f4"
+  },
+  {
+    "path": "source/public/assets/chatus/search.svg",
+    "size": 996,
+    "sha": "301c364caae7857cb0760b3ce1d462362e68ced2"
+  },
+  {
+    "path": "source/public/assets/chatus/silhouette.png",
+    "size": 50417,
+    "sha": "a49e55e4feaccedd374abd6f5a73e5e5cd359a7f"
+  },
+  {
+    "path": "source/public/assets/chatus/sport.svg",
+    "size": 948,
+    "sha": "63e1212dc4f39d26975115e2d45f474095a79420"
+  },
+  {
+    "path": "source/public/assets/deletion/reason-ring.svg",
+    "size": 221,
+    "sha": "3ae4c6edbb98a5bdd3c6fc5e858b3ba88a193d29"
+  },
+  {
+    "path": "source/public/assets/deletion/reason-selected.svg",
+    "size": 322,
+    "sha": "506d86602db5804ddeaa3f4023d81430437b0d74"
+  },
+  {
+    "path": "source/public/assets/deletion/slider-arrow.svg",
+    "size": 873,
+    "sha": "9b8a35e6cd5d1797b1a5dcb8bfad5a649fe336ff"
+  },
+  {
+    "path": "source/public/assets/deletion/slider-glass.png",
+    "size": 8745,
+    "sha": "915c2768bfe814d03b98044ba09cbb2d167f213d"
+  },
+  {
+    "path": "source/public/assets/deletion/support-email.svg",
+    "size": 608,
+    "sha": "d9c7d4addfdad4b5059bea878ceb314a5f944113"
+  },
+  {
+    "path": "source/public/assets/dialog/actions-glass.png",
+    "size": 14038,
+    "sha": "175d7f8a52807e5d35d7e5c55e0fca537a373b9d"
+  },
+  {
+    "path": "source/public/assets/dialog/add-friend-source.svg",
+    "size": 2336,
+    "sha": "2c72896be907d24edf61fe300d2d354b2b4e0788"
+  },
+  {
+    "path": "source/public/assets/dialog/add-friend-surface.png",
+    "size": 21139,
+    "sha": "694ddeda6406e5fb281dc2836086b6c8516970b6"
+  },
+  {
+    "path": "source/public/assets/dialog/add-friend.svg",
+    "size": 2456,
+    "sha": "48cffb7a7b465e2f2c2318a9269855069d86e3f5"
+  },
+  {
+    "path": "source/public/assets/dialog/avatar-cap-2x.png",
+    "size": 26962,
+    "sha": "2a7006c21b270bfef9063eec7ec1de5621575914"
+  },
+  {
+    "path": "source/public/assets/dialog/avatar-composite-2x.png",
+    "size": 25064,
+    "sha": "ea41cc626a854843851a3380dac2221a172bec08"
+  },
+  {
+    "path": "source/public/assets/dialog/avatar-hood-2x.png",
+    "size": 25594,
+    "sha": "38ce4c3341dfeaa78d4496d33ca62536b6da0e8a"
+  },
+  {
+    "path": "source/public/assets/dialog/bottom-mask.svg",
+    "size": 679,
+    "sha": "efa53dca30d60b5ed91193a5b6ba722d05a3e934"
+  },
+  {
+    "path": "source/public/assets/dialog/camera.svg",
+    "size": 1380,
+    "sha": "252dff9de532c6b7ae1878b11af094253f12e566"
+  },
+  {
+    "path": "source/public/assets/dialog/composer-glass.png",
+    "size": 10120,
+    "sha": "6d027a00996f0a114e99d7b2ac02c4586ce8df50"
+  },
+  {
+    "path": "source/public/assets/dialog/dislike.svg",
+    "size": 1037,
+    "sha": "2412d7a1af8e634450eb0e044da6751c7464908c"
+  },
+  {
+    "path": "source/public/assets/dialog/gold-accept-surface.svg",
+    "size": 2115,
+    "sha": "efc2b28ecf0b845208549654da4609fb0f7d1dd4"
+  },
+  {
+    "path": "source/public/assets/dialog/gold-action-7a28b6ad9c.webp",
+    "size": 60554,
+    "sha": "13f4373cd418b54763e918d7414dfe4a5e65c1fc"
+  },
+  {
+    "path": "source/public/assets/dialog/gold-action-surface.svg",
+    "size": 3001,
+    "sha": "25c73ba8cca4c38324c2db949fbabd17cba3195a"
+  },
+  {
+    "path": "source/public/assets/dialog/interest-fashion.svg",
+    "size": 1540,
+    "sha": "e8865f5d5bd1002b726ebb9551a4468948f34755"
+  },
+  {
+    "path": "source/public/assets/dialog/interest-meme.svg",
+    "size": 2208,
+    "sha": "5cffb0cffad3a319741346ea2150fd4c1559da1b"
+  },
+  {
+    "path": "source/public/assets/dialog/interest-music.svg",
+    "size": 633,
+    "sha": "f7263d824bb56787fa9397837bd0973c49978bd7"
+  },
+  {
+    "path": "source/public/assets/dialog/interest-pets.svg",
+    "size": 5730,
+    "sha": "3a9216b97057c37f5503939f44a3c0a9ff5c6398"
+  },
+  {
+    "path": "source/public/assets/dialog/interest-technology.svg",
+    "size": 2092,
+    "sha": "9ce6ee0ed24e3e9492e9a8d80d281cb20ff8ce15"
+  },
+  {
+    "path": "source/public/assets/dialog/keyboard-source.svg",
+    "size": 1227,
+    "sha": "5eb80429ea458ec515d9b701bc5b41f4a8af27c3"
+  },
+  {
+    "path": "source/public/assets/dialog/keyboard.svg",
+    "size": 1227,
+    "sha": "5eb80429ea458ec515d9b701bc5b41f4a8af27c3"
+  },
+  {
+    "path": "source/public/assets/dialog/like.svg",
+    "size": 1028,
+    "sha": "0bca170a27ffa726e853927c99e0db935b4e4397"
+  },
+  {
+    "path": "source/public/assets/dialog/mask-avatar.png",
+    "size": 639363,
+    "sha": "c5bdd04d078264c1e2b0addf1a863a82f5db1d33"
+  },
+  {
+    "path": "source/public/assets/dialog/menu.svg",
+    "size": 2403,
+    "sha": "b7686f9da498dbc95aeb0ac38ac434ac7383150f"
+  },
+  {
+    "path": "source/public/assets/dialog/microphone.svg",
+    "size": 568,
+    "sha": "153a3a8a3334291d640833dbfee400e4b55dc33e"
+  },
+  {
+    "path": "source/public/assets/dialog/nav-chats-selected.svg",
+    "size": 815,
+    "sha": "2c1946ce52d042988128a55b584e2e67d582e622"
+  },
+  {
+    "path": "source/public/assets/dialog/nav-chats.svg",
+    "size": 819,
+    "sha": "eea15ee3a581cdd5209d021f611ca85fff1d2ed2"
+  },
+  {
+    "path": "source/public/assets/dialog/nav-profile.svg",
+    "size": 1928,
+    "sha": "10ec0903cc5fcf80b525df6a61bfa3c45f752628"
+  },
+  {
+    "path": "source/public/assets/dialog/nav-search.svg",
+    "size": 883,
+    "sha": "1925ef219254e6cd97d7810cfde2f87f4fa2fd44"
+  },
+  {
+    "path": "source/public/assets/dialog/premium-badge.svg",
+    "size": 377,
+    "sha": "989ed434accc2c79f75485c55cc4dd9d115d4d33"
+  },
+  {
+    "path": "source/public/assets/dialog/report.svg",
+    "size": 1050,
+    "sha": "5c9dc2e654074c1e2fa94d486b2a76578a2ca7be"
+  },
+  {
+    "path": "source/public/assets/dialog/round-glass.png",
+    "size": 4731,
+    "sha": "17397d33dd6d6bfd163e8e253ba0a87399fb7a93"
+  },
+  {
+    "path": "source/public/assets/dialog/scroll-footer-fade.svg",
+    "size": 363,
+    "sha": "123c7e9ad1517d5ba69929c588ed655ba21d3d03"
+  },
+  {
+    "path": "source/public/assets/dialog/scroll-header-fade.svg",
+    "size": 363,
+    "sha": "61ad3a6efdb2482bcf15b04a5750e51ca4c3d8ed"
+  },
+  {
+    "path": "source/public/assets/dialog/spoiler-fallback.png",
+    "size": 2603,
+    "sha": "1feb14f3bffcbf52f6b441909b2c0ec0a08c44fc"
+  },
+  {
+    "path": "source/public/assets/dialog/timer.svg",
+    "size": 952,
+    "sha": "b22a9e721b420caf4f23b7675b2fc39a5e6b69a7"
+  },
+  {
+    "path": "source/public/assets/dialog/top-mask.svg",
+    "size": 679,
+    "sha": "79a8b65807d6209d8004b70ada12906285f8cc50"
+  },
+  {
+    "path": "source/public/assets/iphone/Bezel.png",
+    "size": 353980,
+    "sha": "759e8aaff849f2a8f8d4876cbb63c119e5bf5f6f"
+  },
+  {
+    "path": "source/public/assets/iphone/Keyboard.png",
+    "size": 53341,
+    "sha": "80207c335d6f10878a85e27a3b2d70a09c9f79be"
+  },
+  {
+    "path": "source/public/assets/onboarding/avatar.png",
+    "size": 3651,
+    "sha": "bd33c70c163c2234294b93560fd25e2719682531"
+  },
+  {
+    "path": "source/public/assets/onboarding/battery.svg",
+    "size": 533,
+    "sha": "0f3e5ec06a4ad522fa910aefed0ecb0107610d74"
+  },
+  {
+    "path": "source/public/assets/onboarding/cellular.svg",
+    "size": 1171,
+    "sha": "9a9f15e52fee8560a59147c8b351afb77ec97d8e"
+  },
+  {
+    "path": "source/public/assets/onboarding/island.png",
+    "size": 426690,
+    "sha": "43e1563445f52e3eaddf1070cbef14f7dd7451bd"
+  },
+  {
+    "path": "source/public/assets/onboarding/wifi.svg",
+    "size": 1625,
+    "sha": "d8f5e1fd30d79bfce1f92915fae8c96444d319c0"
+  },
+  {
+    "path": "source/public/assets/peer/audio-circle-1.png",
+    "size": 113955,
+    "sha": "96785c83917fa0ffe28d236bf9b94bfaa3e5be4c"
+  },
+  {
+    "path": "source/public/assets/peer/audio-circle-2.png",
+    "size": 73999,
+    "sha": "a895dc98f7ffe1e04e97ec60a75e4a460695a8ea"
+  },
+  {
+    "path": "source/public/assets/peer/audio-play.svg",
+    "size": 719,
+    "sha": "263d4c5fc5ba27c1a172cbda077dfc0d5883eb51"
+  },
+  {
+    "path": "source/public/assets/peer/avatar.png",
+    "size": 25999,
+    "sha": "c66b1e046a2bef25b113c30774577c2e8eea9bfe"
+  },
+  {
+    "path": "source/public/assets/peer/back.svg",
+    "size": 252,
+    "sha": "3b074436c881dc7634b6b063974397881b5285e7"
+  },
+  {
+    "path": "source/public/assets/peer/badge.png",
+    "size": 1210,
+    "sha": "357699101d3a435b09cf4c97860068bba051eeca"
+  },
+  {
+    "path": "source/public/assets/peer/badge.svg",
+    "size": 1067,
+    "sha": "faecf4276bea53328eb4ce00272fb45087dfda44"
+  },
+  {
+    "path": "source/public/assets/peer/bottom-mask.svg",
+    "size": 676,
+    "sha": "efec681709c65957a61832ce3a5b49b894302436"
+  },
+  {
+    "path": "source/public/assets/peer/circle-play-2.svg",
+    "size": 719,
+    "sha": "2c1994e40beb777e3ced2ddbfd8c0a6909c3f3df"
+  },
+  {
+    "path": "source/public/assets/peer/circle-play.svg",
+    "size": 716,
+    "sha": "a4f89649f0e8a91a482f2063e8cadc2fa41c4dba"
+  },
+  {
+    "path": "source/public/assets/peer/end.svg",
+    "size": 801,
+    "sha": "e617f589479400d9da032e49d5ac3d48f564d163"
+  },
+  {
+    "path": "source/public/assets/peer/friend-source.svg",
+    "size": 1517,
+    "sha": "05cea936f14944e2600b173dc6d8b151554784d2"
+  },
+  {
+    "path": "source/public/assets/peer/friend.svg",
+    "size": 1590,
+    "sha": "95f5d88335f539d821fe5cff1b483b91e23db938"
+  },
+  {
+    "path": "source/public/assets/peer/interest-fashion.svg",
+    "size": 1426,
+    "sha": "ed2fac98470ce7c832515702bbda7c63b618db8f"
+  },
+  {
+    "path": "source/public/assets/peer/interest-meme.svg",
+    "size": 2095,
+    "sha": "a9a3d56d7a2a273f5a77c0307faa53ee82cc5194"
+  },
+  {
+    "path": "source/public/assets/peer/interest-music.svg",
+    "size": 506,
+    "sha": "1145f97a0fd4d9d19dca38b250e5cc3f72607fc0"
+  },
+  {
+    "path": "source/public/assets/peer/interest-pets.svg",
+    "size": 5617,
+    "sha": "6a725b933aeeeb6e2bd3736bf6854b3805a981b6"
+  },
+  {
+    "path": "source/public/assets/peer/interest-technology.svg",
+    "size": 2073,
+    "sha": "d4b34176a6adfb02113b44b547bb6f6121a53640"
+  },
+  {
+    "path": "source/public/assets/peer/next.svg",
+    "size": 1094,
+    "sha": "5a67a860f2bc9b3b9ccb979f398ca88a0df3ef92"
+  },
+  {
+    "path": "source/public/assets/peer/open-message.svg",
+    "size": 894,
+    "sha": "584de5729883456369586c21623a2f2740243140"
+  },
+  {
+    "path": "source/public/assets/peer/photo-0.jpg",
+    "size": 267277,
+    "sha": "cb8fcf71365531d5d9a8966c406e95766d0d84e8"
+  },
+  {
+    "path": "source/public/assets/peer/photo-1.jpg",
+    "size": 194225,
+    "sha": "1f04e353181f541fe93ac43ffbd2d6b9a29ba15c"
+  },
+  {
+    "path": "source/public/assets/peer/photo-10.jpg",
+    "size": 211085,
+    "sha": "f80d06d75f93626ae38a3cf75dd15735dc6da6ea"
+  },
+  {
+    "path": "source/public/assets/peer/photo-11.jpg",
+    "size": 77072,
+    "sha": "07da15cb04705a6bbda7cab9706ae3202880a1f9"
+  },
+  {
+    "path": "source/public/assets/peer/photo-2.jpg",
+    "size": 152181,
+    "sha": "7672e8a190bc84fe665db904a7af792fab978a93"
+  },
+  {
+    "path": "source/public/assets/peer/photo-3.jpg",
+    "size": 152011,
+    "sha": "6915e2e035c46bbf0638ca7bb5586f46f1bee0a3"
+  },
+  {
+    "path": "source/public/assets/peer/photo-4.jpg",
+    "size": 208028,
+    "sha": "ba2d3c2ed5d0870ae8b9d0adf0cb553ffeae5693"
+  },
+  {
+    "path": "source/public/assets/peer/photo-5.jpg",
+    "size": 188447,
+    "sha": "ac660f9a016a1ed16b5bd565026fc804dcbd62ea"
+  },
+  {
+    "path": "source/public/assets/peer/photo-6.jpg",
+    "size": 343718,
+    "sha": "40ba42d090ad69cb78fe35102443a0eb4613953a"
+  },
+  {
+    "path": "source/public/assets/peer/photo-7.jpg",
+    "size": 212788,
+    "sha": "376669de1989eebbb484e8c33eac7873207339e4"
+  },
+  {
+    "path": "source/public/assets/peer/photo-8.jpg",
+    "size": 55405,
+    "sha": "186803f1bf3d5c3483846a530bec19edb0b131f7"
+  },
+  {
+    "path": "source/public/assets/peer/photo-9.jpg",
+    "size": 158912,
+    "sha": "3c86d89ada1fadd76de22633a7ed19516d2f959b"
+  },
+  {
+    "path": "source/public/assets/peer/premium-badge-03c580c084.svg",
+    "size": 1067,
+    "sha": "5bc38bdcf86723248a63d95936484fcaafd04ffc"
+  },
+  {
+    "path": "source/public/assets/peer/ring.svg",
+    "size": 259,
+    "sha": "2dd60b8f1cdfd685f4cf7ff0a77a8a589d7e8d70"
+  },
+  {
+    "path": "source/public/assets/peer/tab-label-0.svg",
+    "size": 3911,
+    "sha": "f6f22ae538c1c37531c5404e34775ad420932922"
+  },
+  {
+    "path": "source/public/assets/peer/tab-label-1.svg",
+    "size": 9822,
+    "sha": "5fd9e9414bcd181c1a6119e5dded76f8110eedcb"
+  },
+  {
+    "path": "source/public/assets/peer/tab-label-2.svg",
+    "size": 2200,
+    "sha": "07a961f55e481ae203a6392d3e115ee132e41bf9"
+  },
+  {
+    "path": "source/public/assets/peer/tab-label-3.svg",
+    "size": 4259,
+    "sha": "485742708bfbff2df8deef1bfbc1e895d905af22"
+  },
+  {
+    "path": "source/public/assets/peer/tab-label-4.svg",
+    "size": 1904,
+    "sha": "d69f62bbf70d34bf4f0de8de74667ae8a207ecd1"
+  },
+  {
+    "path": "source/public/assets/peer/tab-label-audio.svg",
+    "size": 11646,
+    "sha": "883146c8769e65129edb27ce64092905d242bfc4"
+  },
+  {
+    "path": "source/public/assets/peer/top-mask.svg",
+    "size": 676,
+    "sha": "261b41e1195f32bab8ddc736cb9876a46a7e692d"
+  },
+  {
+    "path": "source/public/assets/peer/video.svg",
+    "size": 1106,
+    "sha": "b006908e33a7140d820a62f87bccdfee0477c077"
+  },
+  {
+    "path": "source/public/assets/premium/0a8ab.png",
+    "size": 256739,
+    "sha": "a471542b8903479514ea525f600c97e0db081ecf"
+  },
+  {
+    "path": "source/public/assets/premium/0a8ab.webp",
+    "size": 134400,
+    "sha": "f6ec154e4b77834aeb2a5f71474130852593f3cb"
+  },
+  {
+    "path": "source/public/assets/premium/2c308.svg",
+    "size": 872,
+    "sha": "9b96cf1ae907aef1c65b8f525fa5db1373482c9a"
+  },
+  {
+    "path": "source/public/assets/premium/2eb1f.svg",
+    "size": 5394,
+    "sha": "2520353744458f259eb87971cecda5ed7279aa1e"
+  },
+  {
+    "path": "source/public/assets/premium/355cd.svg",
+    "size": 3784,
+    "sha": "3f8baeae280c4afa422f1d007b0acb0dddaed3e0"
+  },
+  {
+    "path": "source/public/assets/premium/3bf50.svg",
+    "size": 1747,
+    "sha": "ff269f2119e9460282aedadc99db19b051226b7c"
+  },
+  {
+    "path": "source/public/assets/premium/4f6f2.svg",
+    "size": 707,
+    "sha": "e552c470aa5d08e8660479f029d06cd2d72868a0"
+  },
+  {
+    "path": "source/public/assets/premium/571a7.svg",
+    "size": 29672,
+    "sha": "9453bd3bedfb6934b2d2ffd04270bb4271ba6838"
+  },
+  {
+    "path": "source/public/assets/premium/6e16b.svg",
+    "size": 3428,
+    "sha": "6595d3b7c5d4eb55868a5199aec9e9fa630c0c17"
+  },
+  {
+    "path": "source/public/assets/premium/700d9.svg",
+    "size": 978,
+    "sha": "7fad9375cff95b064d5ae1f4c094e6e72a121fbd"
+  },
+  {
+    "path": "source/public/assets/premium/70bf4.svg",
+    "size": 2252,
+    "sha": "cf6bf161f4bbbf4d54d275dd4a40ea1d940c37d5"
+  },
+  {
+    "path": "source/public/assets/premium/73cc2.svg",
+    "size": 2258,
+    "sha": "e929a22ab41de20980c8d0bb7e013300f1bfe480"
+  },
+  {
+    "path": "source/public/assets/premium/748dd.svg",
+    "size": 784,
+    "sha": "0c91d0ef9da9fe9d8717352751de0c1d5fc37dc0"
+  },
+  {
+    "path": "source/public/assets/premium/7a2ff.svg",
+    "size": 2015,
+    "sha": "9d4788a3056f1fb50afa4d0cd217073f09aff71c"
+  },
+  {
+    "path": "source/public/assets/premium/9be4f.svg",
+    "size": 1257,
+    "sha": "19820e0ade9411df3d69497dd3deb1e03dad1cd0"
+  },
+  {
+    "path": "source/public/assets/premium/bokeh-fallback.png",
+    "size": 29947,
+    "sha": "1582945cb5494adb3e8746c0c3904ab8a94e0b23"
+  },
+  {
+    "path": "source/public/assets/premium/c1226.svg",
+    "size": 3414,
+    "sha": "fbc6ef6bc037b601adca119035ee737dbb89e971"
+  },
+  {
+    "path": "source/public/assets/premium/d199b.svg",
+    "size": 1083,
+    "sha": "5f00196dd00519474a2a3c77f9ffa40e4c959648"
+  },
+  {
+    "path": "source/public/assets/premium/d90fe.png",
+    "size": 1926743,
+    "sha": "e6bce5d0c2bb7088c11899ec5f6b00f87a1a4b64"
+  },
+  {
+    "path": "source/public/assets/premium/d90fe.webp",
+    "size": 116690,
+    "sha": "577a9d6d4ad9ffe960e70bb7cbf1257cf046226d"
+  },
+  {
+    "path": "source/public/assets/premium/e8352.svg",
+    "size": 1123,
+    "sha": "889f474aa0cbf5c524423de854de7157c58009f6"
+  },
+  {
+    "path": "source/public/assets/premium/e9f2f.svg",
+    "size": 439,
+    "sha": "7a79fa0473bdbf7031d7486ae8498eb4765c69db"
+  },
+  {
+    "path": "source/public/assets/premium/f6793.svg",
+    "size": 1014,
+    "sha": "61c53f6b1ece3b7e6ca72d8933c424595a9178eb"
+  },
+  {
+    "path": "source/public/assets/premium/subscribe-label-c4b2120baf.svg",
+    "size": 10304,
+    "sha": "14db0b943ae9fd4e05cafbc901512f050c9d9a95"
+  },
+  {
+    "path": "source/public/assets/premium/subscribe-material-264dc4af75.webp",
+    "size": 67640,
+    "sha": "3d95977034bedd1299313f3dcebf6fde14ac3c27"
+  },
+  {
+    "path": "source/public/assets/premium/subscribe-source.svg",
+    "size": 3879,
+    "sha": "699c7374341b69dba93a78d56a0eb4d26383761a"
+  },
+  {
+    "path": "source/public/assets/premium/subscribe-surface-f8e7d563.svg",
+    "size": 3879,
+    "sha": "699c7374341b69dba93a78d56a0eb4d26383761a"
+  },
+  {
+    "path": "source/public/assets/profile/age.svg",
+    "size": 2289,
+    "sha": "a25a8a9604875c03599ce17c2371e01f4bd74c62"
+  },
+  {
+    "path": "source/public/assets/profile/avatar-button-glass-3x.png",
+    "size": 5402,
+    "sha": "e96e5479fc00006d87cb933a745e0cb8a668a84b"
+  },
+  {
+    "path": "source/public/assets/profile/avatar-button-glass.png",
+    "size": 2128,
+    "sha": "7387e5963ae2945af18b44e956b0af8076496a0f"
+  },
+  {
+    "path": "source/public/assets/profile/avatar-edit.svg",
+    "size": 2216,
+    "sha": "610b5073efa248248b549c6cfdb88ca2ec49949b"
+  },
+  {
+    "path": "source/public/assets/profile/avatar-unassigned.png",
+    "size": 639363,
+    "sha": "c5bdd04d078264c1e2b0addf1a863a82f5db1d33"
+  },
+  {
+    "path": "source/public/assets/profile/bottom-fade.svg",
+    "size": 670,
+    "sha": "501dc5658aa0dcd344d00f06ba9072d31470cd78"
+  },
+  {
+    "path": "source/public/assets/profile/chats.svg",
+    "size": 819,
+    "sha": "eea15ee3a581cdd5209d021f611ca85fff1d2ed2"
+  },
+  {
+    "path": "source/public/assets/profile/complete-profile-edit.svg",
+    "size": 762,
+    "sha": "a746af98c8b9e1039155436ef56091b514f128f0"
+  },
+  {
+    "path": "source/public/assets/profile/complete-profile-glass-3x.png",
+    "size": 3173,
+    "sha": "1a211ed432d5ecab94bc2479c6543111cd78ada2"
+  },
+  {
+    "path": "source/public/assets/profile/complete-profile-glass.png",
+    "size": 2026,
+    "sha": "38a10748295e281ee60224e373c1e218b61e4905"
+  },
+  {
+    "path": "source/public/assets/profile/completion-status-small.svg",
+    "size": 490,
+    "sha": "1cc8c9481b654352e6e47eaad0ab43b34b5b78f8"
+  },
+  {
+    "path": "source/public/assets/profile/diamond-white.svg",
+    "size": 416,
+    "sha": "01debbe8d600da66917930fe7ee1d807ce0197f9"
+  },
+  {
+    "path": "source/public/assets/profile/diamond.svg",
+    "size": 3069,
+    "sha": "034bfeacd7deb7844662d5a675dbd28d74335b5d"
+  },
+  {
+    "path": "source/public/assets/profile/discover.svg",
+    "size": 1044,
+    "sha": "00887722fbd40dc0ab3c609678095fd2f3adef17"
+  },
+  {
+    "path": "source/public/assets/profile/dislike.svg",
+    "size": 1227,
+    "sha": "01b4ab0c29b071cf91af9ec2eae899a45e1cad43"
+  },
+  {
+    "path": "source/public/assets/profile/download.svg",
+    "size": 1588,
+    "sha": "0ca851001c358ba9aadcb30ee4cbede1cbf4826d"
+  },
+  {
+    "path": "source/public/assets/profile/edit-profile-glass-3x.png",
+    "size": 5012,
+    "sha": "b07b09e6eeb8b86458dbd0282f4faa2551f7c14f"
+  },
+  {
+    "path": "source/public/assets/profile/edit.svg",
+    "size": 762,
+    "sha": "a746af98c8b9e1039155436ef56091b514f128f0"
+  },
+  {
+    "path": "source/public/assets/profile/evaluation.svg",
+    "size": 1344,
+    "sha": "0c3d8f1b99ed4eb0178311de8c023aa35f58239f"
+  },
+  {
+    "path": "source/public/assets/profile/gender-card-outline.svg",
+    "size": 1120,
+    "sha": "468edf1b809d0fa689e6f29fb934516806f4269f"
+  },
+  {
+    "path": "source/public/assets/profile/gender-choice-outline.svg",
+    "size": 196,
+    "sha": "014977cd3b7175eff7f6c11ab0bcfb01a8a5a4f3"
+  },
+  {
+    "path": "source/public/assets/profile/gender.svg",
+    "size": 719,
+    "sha": "789a7c2fb766f23dda96e2e26549385eb8e54c27"
+  },
+  {
+    "path": "source/public/assets/profile/interests.svg",
+    "size": 1763,
+    "sha": "65f682c89a626afd26c980d9388cecc0254effc8"
+  },
+  {
+    "path": "source/public/assets/profile/invite.svg",
+    "size": 1573,
+    "sha": "76da07545e035648dda4a3c3082f2a69cc4f2092"
+  },
+  {
+    "path": "source/public/assets/profile/like.svg",
+    "size": 1073,
+    "sha": "ed848e27f98f2fce51d670f3b4feaae31336b0ae"
+  },
+  {
+    "path": "source/public/assets/profile/nickname-dice.svg",
+    "size": 1729,
+    "sha": "209ae5d87117e98d7fd4df90d65e710d1b8aeb2a"
+  },
+  {
+    "path": "source/public/assets/profile/nickname.svg",
+    "size": 3076,
+    "sha": "043d24ce67c2d6baacb1eacc0547781f0b05d8f2"
+  },
+  {
+    "path": "source/public/assets/profile/preferences.svg",
+    "size": 724,
+    "sha": "f3cc6255a53b2bee9b6d4d4c8119ceb546bbb4d8"
+  },
+  {
+    "path": "source/public/assets/profile/premium-illustration.svg",
+    "size": 9906,
+    "sha": "ccd51f0435896a7ff4422959be27d011f61f0706"
+  },
+  {
+    "path": "source/public/assets/profile/premium-lightning.png",
+    "size": 9616,
+    "sha": "8373b383886dfb3130c94997171a671bd4c9006f"
+  },
+  {
+    "path": "source/public/assets/profile/premium-person.png",
+    "size": 7875,
+    "sha": "93349d3db807ce337d9715b2f864e5d3bd83db22"
+  },
+  {
+    "path": "source/public/assets/profile/premium-ring.svg",
+    "size": 259,
+    "sha": "2dd60b8f1cdfd685f4cf7ff0a77a8a589d7e8d70"
+  },
+  {
+    "path": "source/public/assets/profile/premium-vector/avatar-01.svg",
+    "size": 1738,
+    "sha": "96ebbff17f2643711c76ad3514c7597ce22f2db8"
+  },
+  {
+    "path": "source/public/assets/profile/premium-vector/avatar-02.svg",
+    "size": 1733,
+    "sha": "66c43e1c0ad1f7c8d9025de843c32a0eff4a9d3d"
+  },
+  {
+    "path": "source/public/assets/profile/premium-vector/avatar-03.svg",
+    "size": 1724,
+    "sha": "8c83fb3c99a3cf2e76f2a018463982e9c2dc0c1d"
+  },
+  {
+    "path": "source/public/assets/profile/premium-vector/avatar-04.svg",
+    "size": 1782,
+    "sha": "5f7d460c4a50ea7d802c761602e4e17b44d15907"
+  },
+  {
+    "path": "source/public/assets/profile/premium-vector/bolt-depth.svg",
+    "size": 1049,
+    "sha": "44988961e1d656edae15e8f989e07c2c04b215a4"
+  },
+  {
+    "path": "source/public/assets/profile/premium-vector/bolt-face.svg",
+    "size": 1056,
+    "sha": "dfb8484b3f5006ccddaa0ae498fff635a838d339"
+  },
+  {
+    "path": "source/public/assets/profile/premium-vector/bolt-light.svg",
+    "size": 1115,
+    "sha": "7dd3772c1aee8c75aed062b562704c61021a6483"
+  },
+  {
+    "path": "source/public/assets/profile/profile.svg",
+    "size": 1974,
+    "sha": "8b16040a50528550c9ed8fad0a9d1e6d3a429f69"
+  },
+  {
+    "path": "source/public/assets/profile/support.svg",
+    "size": 585,
+    "sha": "23da576f898ce1c1cfb70e83fb5f4a1c1eb6244c"
+  },
+  {
+    "path": "source/public/assets/settings/appearance.svg",
+    "size": 2920,
+    "sha": "139231caa874fdc00a567ff8bd8c70ef8dd42c40"
+  },
+  {
+    "path": "source/public/assets/settings/back-glass.png",
+    "size": 1274,
+    "sha": "8e3a077978842ef2bb1ba573743e42cb4470f3f9"
+  },
+  {
+    "path": "source/public/assets/settings/back.svg",
+    "size": 252,
+    "sha": "da4069a620da250bba6da9652d2b4498be0b651d"
+  },
+  {
+    "path": "source/public/assets/settings/delete-4x.png",
+    "size": 2570,
+    "sha": "895465af7fa1cf6ea508ad87f083689ecee98597"
+  },
+  {
+    "path": "source/public/assets/settings/delete-source.svg",
+    "size": 6897,
+    "sha": "dd1de7a803d69f1df4f41c292cc3598811428f6c"
+  },
+  {
+    "path": "source/public/assets/settings/delete.svg",
+    "size": 1237,
+    "sha": "c893a737a8d5a83fffdcfec48c18224ffd9a9cb6"
+  },
+  {
+    "path": "source/public/assets/settings/divider.svg",
+    "size": 238,
+    "sha": "dab002f7c5895e5edd511a276141ae2b5476d15a"
+  },
+  {
+    "path": "source/public/assets/settings/logout-4x.png",
+    "size": 1491,
+    "sha": "64324b9487eb923c707d120a10d8a899a9f1342b"
+  },
+  {
+    "path": "source/public/assets/settings/logout-source.svg",
+    "size": 10287,
+    "sha": "ee45302bdc0e350d5679e96f4d25a917b2fdfb25"
+  },
+  {
+    "path": "source/public/assets/settings/logout.svg",
+    "size": 10280,
+    "sha": "6a092c3d2deb1940f874ace6778421293ad0258d"
+  },
+  {
+    "path": "source/public/assets/settings/media-blur.svg",
+    "size": 2870,
+    "sha": "b2b2ecb61cd25cee3ce8567d621694c0a09da009"
+  },
+  {
+    "path": "source/public/assets/settings/notification.svg",
+    "size": 13822,
+    "sha": "ddee6cf3e1395971819514bf9ac8aed45839ea4f"
+  },
+  {
+    "path": "source/public/assets/settings/theme-dark-preview-3x.png",
+    "size": 14725,
+    "sha": "492a7d8cb9be9b94c02033b69f4c3fea3eebc422"
+  },
+  {
+    "path": "source/public/assets/settings/theme-dark-preview.png",
+    "size": 3557,
+    "sha": "f44bd802e113e14eea76328fb7226d589e0184d9"
+  },
+  {
+    "path": "source/public/assets/settings/theme-dark.png",
+    "size": 7216,
+    "sha": "b82db1d760304600e2c6bc046d8e64c5625dedfe"
+  },
+  {
+    "path": "source/public/assets/settings/theme-light-preview-3x.png",
+    "size": 14307,
+    "sha": "2bd33b93754e78afb7bca6702de946f3ad3b9c4f"
+  },
+  {
+    "path": "source/public/assets/settings/theme-light-preview.png",
+    "size": 3424,
+    "sha": "e17f9d6a9ff291b4e3dfc9beee7536674010cf43"
+  },
+  {
+    "path": "source/public/assets/settings/theme-light.png",
+    "size": 6475,
+    "sha": "d46e09636bd0bf3b009ff404e8472f5e67e4261d"
+  },
+  {
+    "path": "source/public/assets/settings/theme-selection-smooth.svg",
+    "size": 903,
+    "sha": "3bdcebb3119d387d99fdcbb7e39f234017da3c1b"
+  },
+  {
+    "path": "source/public/assets/settings/theme-selection.svg",
+    "size": 225,
+    "sha": "786862d8af81250eb914328d448b1416752d90c0"
+  },
+  {
+    "path": "source/public/assets/settings/theme-system-preview-3x.png",
+    "size": 14761,
+    "sha": "8909917ceca348fdc7fff368622bc40a0888ea2c"
+  },
+  {
+    "path": "source/public/assets/settings/theme-system-preview.png",
+    "size": 4325,
+    "sha": "5abb7063dd630dba3e27ff599bdb17a80106376c"
+  },
+  {
+    "path": "source/public/assets/settings/theme-system.png",
+    "size": 7424,
+    "sha": "2cdf06d51a53020eafd2db132b75edb5150fd4f5"
+  },
+  {
+    "path": "source/public/assets/settings/toggle-on.svg",
+    "size": 411,
+    "sha": "0029614988a13cc16b6597d4216192818f8a1074"
+  },
+  {
+    "path": "source/public/assets/status/ios-status-icons.svg",
+    "size": 2765,
+    "sha": "b75235ae4eacef02b1ef43f2e19c8f0c69e380bb"
+  },
+  {
+    "path": "source/public/assets/status/status-icons.svg",
+    "size": 824,
+    "sha": "8a97e8182bf7698ec7c9db93a69f1fe47bbc0845"
+  },
+  {
+    "path": "source/public/assets/welcome/apple.svg",
+    "size": 815,
+    "sha": "70af412c3de91d117935f892ff34a185005c8099"
+  },
+  {
+    "path": "source/public/assets/welcome/avatar-center-mobile.webp",
+    "size": 428348,
+    "sha": "587aee49d5b17f29e0c118777a87aaa1b4786f7b"
+  },
+  {
+    "path": "source/public/assets/welcome/avatar-center.png",
+    "size": 423002,
+    "sha": "c5f23615d6ea3de42989faeab090c999394be65a"
+  },
+  {
+    "path": "source/public/assets/welcome/avatar-far-left-mobile.webp",
+    "size": 428946,
+    "sha": "587078a1827e2447af81c0a91ad8ef9178f91fbd"
+  },
+  {
+    "path": "source/public/assets/welcome/avatar-far-left.png",
+    "size": 410679,
+    "sha": "4bbb2eff0a3601c9dd530f3ddfb095e73810c577"
+  },
+  {
+    "path": "source/public/assets/welcome/avatar-far-right-mobile.webp",
+    "size": 331940,
+    "sha": "68e6c6b594f8095a2495aa2bef0c873019b987b5"
+  },
+  {
+    "path": "source/public/assets/welcome/avatar-far-right.png",
+    "size": 980454,
+    "sha": "49d0b528758ca1804e404ee90403fda4c02bcbc7"
+  },
+  {
+    "path": "source/public/assets/welcome/avatar-left-mobile.webp",
+    "size": 349430,
+    "sha": "664d3b75fa9f01d4d4156f5229a2c0487e024639"
+  },
+  {
+    "path": "source/public/assets/welcome/avatar-left.png",
+    "size": 395850,
+    "sha": "b09d227fc3e6b9f82140d804b3b596870b476964"
+  },
+  {
+    "path": "source/public/assets/welcome/avatar-mask.svg",
+    "size": 1543,
+    "sha": "8cdfa53f2e0af3cdd69ca05468a50d575a286f10"
+  },
+  {
+    "path": "source/public/assets/welcome/avatar-right-mobile.webp",
+    "size": 395322,
+    "sha": "7083514623fa9de4458b59d2fdb6d6e14f210889"
+  },
+  {
+    "path": "source/public/assets/welcome/avatar-right.png",
+    "size": 429015,
+    "sha": "a492f55c47bba185dc03e4030f3bca04bdee0b92"
+  },
+  {
+    "path": "source/public/assets/welcome/background/fade-actions.svg",
+    "size": 606,
+    "sha": "8978f48f7efaa612ee2a46d0047b1633ac8dc8a0"
+  },
+  {
+    "path": "source/public/assets/welcome/background/fade-illustration.svg",
+    "size": 608,
+    "sha": "1aa3786217e172b3bbfd1947a15bf9d5a5cffada"
+  },
+  {
+    "path": "source/public/assets/welcome/background/fade-title.svg",
+    "size": 601,
+    "sha": "5eea5ec0b4acbaf6c96f7c10af19f61453a8f497"
+  },
+  {
+    "path": "source/public/assets/welcome/background/pattern-bottom.svg",
+    "size": 46581,
+    "sha": "5662ce97b112158314457a29c380eddf551f86c8"
+  },
+  {
+    "path": "source/public/assets/welcome/background/pattern-top.svg",
+    "size": 40096,
+    "sha": "62b96cdb7fb7047239423efabeccd6d9729a381d"
+  },
+  {
+    "path": "source/public/assets/welcome/dynamic-island.png",
+    "size": 426690,
+    "sha": "43e1563445f52e3eaddf1070cbef14f7dd7451bd"
+  },
+  {
+    "path": "source/public/assets/welcome/google.svg",
+    "size": 1342,
+    "sha": "6c8f236083d7e9a02470502fe7ea79c16c2688eb"
+  },
+  {
+    "path": "source/public/assets/welcome/illustration-union.svg",
+    "size": 1106,
+    "sha": "c6be689847baa9971c0344f9bd627ecde2f9c734"
+  },
+  {
+    "path": "source/public/assets/welcome/mail.svg",
+    "size": 1372,
+    "sha": "c6bdc04d35b6f00f44167ae1c2985afd396b0119"
+  },
+  {
+    "path": "source/public/assets/welcome/rail-mask.svg",
+    "size": 938,
+    "sha": "7063e37c1186d07372b1db1648b60afd831a5a24"
+  },
+  {
+    "path": "source/public/assets/welcome/reflection.png",
+    "size": 150316,
+    "sha": "50950653f55e38ecccac0d86b2a1444e1a459582"
+  },
+  {
+    "path": "source/public/assets/welcome/ring-glow.svg",
+    "size": 1242,
+    "sha": "b866f5fcbe1493d80fbcb1f4d7683da51ac34304"
+  },
+  {
+    "path": "source/public/assets/welcome/ring-soft.svg",
+    "size": 1237,
+    "sha": "43cb74f058b0cb7745e9de083aed72a8afb94649"
+  },
+  {
+    "path": "source/public/assets/welcome/ring.svg",
+    "size": 1776,
+    "sha": "ecbca1dfd006ae62f35494a8318ce63254cedebf"
+  },
+  {
+    "path": "source/scripts/build-search-contour.py",
+    "size": 4096,
+    "sha": "045e2a8117d9026ae86af521c7af8aa2a58b25c8"
+  },
+  {
+    "path": "source/scripts/check-mobile-runtime.mjs",
+    "size": 1212,
+    "sha": "72bf53d266d43fed9e81d782db773134c2776bb1"
+  },
+  {
+    "path": "source/scripts/check-search-mask.py",
+    "size": 705,
+    "sha": "82d90bbd3a312de858d7387620ac135b9deb3cf0"
+  },
+  {
+    "path": "source/scripts/fetch-design-assets.py",
+    "size": 2432,
+    "sha": "5b7f3c8de6d9ea27ab650d2c244aa8eedb0e8801"
+  },
+  {
+    "path": "source/scripts/prepare-sites-build.mjs",
+    "size": 910,
+    "sha": "86a9e8c1bbd01b1e379996db66b9bcfeb6b519ee"
+  },
+  {
+    "path": "source/scripts/update-mobile-runtime-lock.mjs",
+    "size": 1732,
+    "sha": "7d9127587fcc495a299c3b902847fc40ca4e2722"
+  },
+  {
+    "path": "source/src/App.tsx",
+    "size": 213,
+    "sha": "1b3d808f428030ba69d9fa2a8793eb02c044cf7f"
+  },
+  {
+    "path": "source/src/Prototype.tsx",
+    "size": 114906,
+    "sha": "0b80b87bb6e27b8cb96d23d5a7869a6cd7e895fa"
+  },
+  {
+    "path": "source/src/components/AppSheet.tsx",
+    "size": 4394,
+    "sha": "9981ebd33cfe94e1b6c0986483ed28a9b9a766d2"
+  },
+  {
+    "path": "source/src/components/AuthFlow/AgeWheelDigits.tsx",
+    "size": 1351,
+    "sha": "46529aa8059506a4a07d22b278657cab078edee2"
+  },
+  {
+    "path": "source/src/components/AuthFlow/AuthFlow.tsx",
+    "size": 58844,
+    "sha": "cb5a3c0e7a660417e78900cbd9f23bd56ebcb669"
+  },
+  {
+    "path": "source/src/components/AuthFlow/NotificationSheet.tsx",
+    "size": 2612,
+    "sha": "86e3574ec2fb4592dd6aeb8bc4d896005bb51aff"
+  },
+  {
+    "path": "source/src/components/AuthFlow/QuestionnaireGlow.tsx",
+    "size": 5935,
+    "sha": "c88a1a216e6dfd566c3967e31458493d239b31ae"
+  },
+  {
+    "path": "source/src/components/AuthFlow/auth-flow.css",
+    "size": 34918,
+    "sha": "14f65498be89e28dfe91a1fd119b904ee91b63fc"
+  },
+  {
+    "path": "source/src/components/AuthFlow/avatar-image.ts",
+    "size": 419,
+    "sha": "9e04c189d9b5076cc65b8afcb30f3ed4d929e8f9"
+  },
+  {
+    "path": "source/src/components/AuthFlow/code-input.ts",
+    "size": 705,
+    "sha": "5686f04a58b710e142ca47e9c671b1d5bb08d031"
+  },
+  {
+    "path": "source/src/components/AuthFlow/form-packing.ts",
+    "size": 1091,
+    "sha": "a182b3c262eb65764bf7c76c307badf30e74215c"
+  },
+  {
+    "path": "source/src/components/AuthFlow/notification-sheet.css",
+    "size": 3992,
+    "sha": "5fdd1d5daf7c65eaaa321cb28eb4c7c23e80f7c3"
+  },
+  {
+    "path": "source/src/components/AuthFlow/onboarding-bio.ts",
+    "size": 1819,
+    "sha": "dc090c02121a063e8aaba7f36f83bf2bb59bb54d"
+  },
+  {
+    "path": "source/src/components/AuthFlow/questionnaire-data.ts",
+    "size": 1566,
+    "sha": "b0ec8cb7c8dfa4fe89e6a14f257d8d156114a1f3"
+  },
+  {
+    "path": "source/src/components/AuthFlow/questionnaire-glow.css",
+    "size": 1093,
+    "sha": "e89a0f76012e40eb60fb5c6214ab029b90e0ac40"
+  },
+  {
+    "path": "source/src/components/AuthFlow/questionnaire-storage.ts",
+    "size": 2332,
+    "sha": "e5eda4f1906bc20d3743458b400521580d387466"
+  },
+  {
+    "path": "source/src/components/ChatActions.tsx",
+    "size": 12733,
+    "sha": "586d4c5080b80dd4dd3b5cf1bd7e5c92dc6ad47c"
+  },
+  {
+    "path": "source/src/components/ChatCircleRecorder.tsx",
+    "size": 6402,
+    "sha": "8c95d03470b817b4a578c1451840ab446f4e3535"
+  },
+  {
+    "path": "source/src/components/ChatConversation.tsx",
+    "size": 39661,
+    "sha": "309e3d62decd835ae696c7343d39d57212b0c958"
+  },
+  {
+    "path": "source/src/components/ChatHint.tsx",
+    "size": 1191,
+    "sha": "14c38689e557bd653a030735578896dc9ef7daaf"
+  },
+  {
+    "path": "source/src/components/ChatMedia.tsx",
+    "size": 25785,
+    "sha": "ab7941b2de99e459ce50bd37c7b31dceab02e172"
+  },
+  {
+    "path": "source/src/components/ChatOutgoingMask.tsx",
+    "size": 6758,
+    "sha": "9b6cc93faf38dead82c3bf4aa43a43cf80ece995"
+  },
+  {
+    "path": "source/src/components/ChatQuoteMaterial.tsx",
+    "size": 487,
+    "sha": "982307c42dbaa70eceb1fcf266ffe6e39c345e74"
+  },
+  {
+    "path": "source/src/components/ChatReactionGlyph.tsx",
+    "size": 678,
+    "sha": "1c9967b80fb7d1a2cac44a6901ca4014df4f2c2b"
+  },
+  {
+    "path": "source/src/components/ChatStickers.tsx",
+    "size": 4663,
+    "sha": "c01f0e698cb657f222f79cc9199016b6a5489185"
+  },
+  {
+    "path": "source/src/components/ChatVideoCircle.tsx",
+    "size": 5435,
+    "sha": "63e783d23c6efeed3277e378ef06268cf6b23d53"
+  },
+  {
+    "path": "source/src/components/ChatusViewport.ts",
+    "size": 1969,
+    "sha": "16aa96960aedd6114aafb16c31c4604f0d9ef55b"
+  },
+  {
+    "path": "source/src/components/DraftComposer.tsx",
+    "size": 539,
+    "sha": "3c594f4ee6f920bf266580f7d362193a8b30519d"
+  },
+  {
+    "path": "source/src/components/Launch/Launch.tsx",
+    "size": 8717,
+    "sha": "b6dc71d757de813bd63026deec0bd254510fecca"
+  },
+  {
+    "path": "source/src/components/Launch/launch.css",
+    "size": 7600,
+    "sha": "28914ab9a0c4e8f23b49b871e596a22146b36463"
+  },
+  {
+    "path": "source/src/components/Launch/splash.ts",
+    "size": 37415,
+    "sha": "3097955495fd7e64ead3db839bb5eb68d49f9751"
+  },
+  {
+    "path": "source/src/components/LivingSearchSilhouette/LivingSearchSilhouette.tsx",
+    "size": 4767,
+    "sha": "64630c1e3b924be8d291be8959e1de620ff41152"
+  },
+  {
+    "path": "source/src/components/LivingSearchSilhouette/README.md",
+    "size": 4426,
+    "sha": "421b8b5ed410f7eb280e7227637759849cdc9fa3"
+  },
+  {
+    "path": "source/src/components/LivingSearchSilhouette/config.ts",
+    "size": 988,
+    "sha": "17d574b61de0b8a5271bf1aafe398e13f19ca43a"
+  },
+  {
+    "path": "source/src/components/LivingSearchSilhouette/contour-data.ts",
+    "size": 15141,
+    "sha": "7f9f91879ebb7682d9b486e89f110adf9816b9df"
+  },
+  {
+    "path": "source/src/components/LivingSearchSilhouette/living-search.css",
+    "size": 1820,
+    "sha": "0508ded549e510863b6c42071eb87f0fe918d499"
+  },
+  {
+    "path": "source/src/components/LivingSearchSilhouette/luma.ts",
+    "size": 2434,
+    "sha": "53889a12b33992b307f367f7b8d488a239b86058"
+  },
+  {
+    "path": "source/src/components/LivingSearchSilhouette/path.ts",
+    "size": 564,
+    "sha": "0f3bd7decbb409c54598470304e879fd01511405"
+  },
+  {
+    "path": "source/src/components/LivingSearchSilhouette/renderer.ts",
+    "size": 7882,
+    "sha": "f4da37b3690421061faecd464bf04b5a785d6286"
+  },
+  {
+    "path": "source/src/components/LivingSearchSilhouette/shaders.ts",
+    "size": 3607,
+    "sha": "3ec3cb34f92b679a28a77cc462e681ff38e81b81"
+  },
+  {
+    "path": "source/src/components/MediaDurationBadge.tsx",
+    "size": 512,
+    "sha": "d19090cb21d5680b57a7bdb7f300a11f1af80380"
+  },
+  {
+    "path": "source/src/components/PeerProfile.tsx",
+    "size": 24276,
+    "sha": "bd92e9a8a0a56e07f52bc464852e140f8a541f72"
+  },
+  {
+    "path": "source/src/components/PremiumIllustration.tsx",
+    "size": 3389,
+    "sha": "59f3f42eefe14a041ca1fd4a4aa44131cbf698f2"
+  },
+  {
+    "path": "source/src/components/PreviewControls.tsx",
+    "size": 2443,
+    "sha": "10f750c081ca70a569e95abb2bd057f3d83ad7ae"
+  },
+  {
+    "path": "source/src/components/Typography/FigmaDisplayLines.tsx",
+    "size": 303,
+    "sha": "78727c64fa4110f23f07c8ef50f2fd09d57111d9"
+  },
+  {
+    "path": "source/src/components/Typography/figma-display.css",
+    "size": 76,
+    "sha": "43592fb7e100c6bc012dccb6cad03fcbf76e1293"
+  },
+  {
+    "path": "source/src/components/caption-geometry.ts",
+    "size": 336,
+    "sha": "6276aeb3a21b92ddc9c8261519304881cbfa4258"
+  },
+  {
+    "path": "source/src/components/chat-actions.css",
+    "size": 21970,
+    "sha": "9eede58b323ac7b812cc1570aec7d4f3249f84d0"
+  },
+  {
+    "path": "source/src/components/chat-circle.css",
+    "size": 8241,
+    "sha": "3ec513f5495c7a97382e658f6c4968622eb96ef6"
+  },
+  {
+    "path": "source/src/components/chat-draft.ts",
+    "size": 573,
+    "sha": "2159c2e3ff09432946650743c5f2552e5cfaa68d"
+  },
+  {
+    "path": "source/src/components/chat-entry.css",
+    "size": 1703,
+    "sha": "4c310ec8f2a950dcd5c75b0b577180b66c44d900"
+  },
+  {
+    "path": "source/src/components/chat-history-layout.ts",
+    "size": 476,
+    "sha": "93e9b44458e54b50c0517c4fa2abb85d867249cf"
+  },
+  {
+    "path": "source/src/components/chat-media.css",
+    "size": 14236,
+    "sha": "faf17854f9cc2d42004036218166055292ff30f8"
+  },
+  {
+    "path": "source/src/components/chat-message-groups.ts",
+    "size": 804,
+    "sha": "b9a55d2311d7b4a2cbf85d88c46dc1d43126e37b"
+  },
+  {
+    "path": "source/src/components/chat-outgoing-geometry.ts",
+    "size": 1797,
+    "sha": "2e1869a1f1b845c38e0ad5e01af00984813a7c98"
+  },
+  {
+    "path": "source/src/components/chat-scenarios.ts",
+    "size": 10827,
+    "sha": "759b0d77dd39cc9d8a2e45b99aef8c6aff628b52"
+  },
+  {
+    "path": "source/src/components/chat-session.ts",
+    "size": 1699,
+    "sha": "60deb2c2f5942b2d29fb7953821275dcc8152357"
+  },
+  {
+    "path": "source/src/components/chat-stickers.css",
+    "size": 2372,
+    "sha": "92f6db2bd20c5cee6f748050ef7024a2ac34b716"
+  },
+  {
+    "path": "source/src/components/circle-geometry.ts",
+    "size": 1117,
+    "sha": "b4d37f17e8245eb0111599747e0a5f95abfb3787"
+  },
+  {
+    "path": "source/src/components/media-duration-badge.css",
+    "size": 548,
+    "sha": "9d2a34a9a742141ef0888dfca352844eed12c64f"
+  },
+  {
+    "path": "source/src/components/mobile-app.css",
+    "size": 10360,
+    "sha": "15c34b4be02d68f4c083ef8847d5fd32dfda85b8"
+  },
+  {
+    "path": "source/src/components/peer-profile.css",
+    "size": 4413,
+    "sha": "52d64b46da235ca4992fc75663bfad405d5b5369"
+  },
+  {
+    "path": "source/src/components/premium/Bokeh.ts",
+    "size": 7170,
+    "sha": "86cea66fe82fc6e6e3580e54d0a48a922e9cb418"
+  },
+  {
+    "path": "source/src/components/premium/PremiumPrice.tsx",
+    "size": 13484,
+    "sha": "9ae2e00c392aaec4c4b0403b3a34c79993fcea91"
+  },
+  {
+    "path": "source/src/components/premium/PremiumSheet.tsx",
+    "size": 11011,
+    "sha": "4d5c5f88df0bfe9a13196d189c39bb5eb6cb2771"
+  },
+  {
+    "path": "source/src/components/premium/premium-sheet.css",
+    "size": 10016,
+    "sha": "75abe477c84072547a368343558ffb27eac97efd"
+  },
+  {
+    "path": "source/src/isolated-onboarding/Glass.tsx",
+    "size": 3834,
+    "sha": "5ad5db0581e4dd4e1efa32402d97ab089d547bfa"
+  },
+  {
+    "path": "source/src/isolated-onboarding/OnboardingPreview.tsx",
+    "size": 1565,
+    "sha": "11332d8e23ef5d7b43ea549693bce52493b221f6"
+  },
+  {
+    "path": "source/src/isolated-onboarding/OnboardingScreen.tsx",
+    "size": 14197,
+    "sha": "690e4a2a52430a8f1babac3a8e777924ebbebe06"
+  },
+  {
+    "path": "source/src/isolated-onboarding/OrangeButtonStroke.tsx",
+    "size": 624,
+    "sha": "230a59db6394e3e1c6a505e421b43e1003f768fa"
+  },
+  {
+    "path": "source/src/isolated-onboarding/Spoiler.tsx",
+    "size": 933,
+    "sha": "8be3fae1f49cee5cd0d46fdcca25956a75a5b8e0"
+  },
+  {
+    "path": "source/src/isolated-onboarding/apple-card-motion.ts",
+    "size": 1028,
+    "sha": "84b656e5e8c62bd7d7c9abb1b21e2b1091c60972"
+  },
+  {
+    "path": "source/src/isolated-onboarding/apple-design-preview.css",
+    "size": 2481,
+    "sha": "4e01ca2b319adda46dc78270c2e5b1742163349d"
+  },
+  {
+    "path": "source/src/isolated-onboarding/lib/custom-effect-runtime/canvasResize.ts",
+    "size": 1058,
+    "sha": "bcb10bd0b25212a4ce2d9d27413c7cf9f5c0af15"
+  },
+  {
+    "path": "source/src/isolated-onboarding/lib/custom-effect-runtime/components/ShaderEffect.tsx",
+    "size": 2228,
+    "sha": "9c5ec55e3e8c1a79481b3b39d65ee63acdd0ed88"
+  },
+  {
+    "path": "source/src/isolated-onboarding/lib/custom-effect-runtime/components/ShaderFill.tsx",
+    "size": 1784,
+    "sha": "b7b08ec56dfaadc3df3841f790116d8695147eff"
+  },
+  {
+    "path": "source/src/isolated-onboarding/lib/custom-effect-runtime/index.tsx",
+    "size": 647,
+    "sha": "480c35b9bda066f146f14de6f968afeb958e7236"
+  },
+  {
+    "path": "source/src/isolated-onboarding/lib/custom-effect-runtime/mask.ts",
+    "size": 2069,
+    "sha": "8b697c881849139de1e320fa401d7d51dc1d4fd2"
+  },
+  {
+    "path": "source/src/isolated-onboarding/lib/custom-effect-runtime/types.ts",
+    "size": 2229,
+    "sha": "904e2f6e5e8a1b0a11d03c9c6e81020ae739e349"
+  },
+  {
+    "path": "source/src/isolated-onboarding/lib/custom-effect-runtime/useShaderRuntime.ts",
+    "size": 18458,
+    "sha": "5a835cfab0b1ac1a7a8fc6bec2c5d84fa272dd43"
+  },
+  {
+    "path": "source/src/isolated-onboarding/lib/custom-effect-runtime/webgpu.ts",
+    "size": 2049,
+    "sha": "85a5e6f6749738ea5167c5038de6dd1bb0fd5a74"
+  },
+  {
+    "path": "source/src/isolated-onboarding/lib/custom-effects/LiveTelegramSpoiler.ts",
+    "size": 3857,
+    "sha": "cb17cbfdbb1e45a36f92ff51c1a58d4f6c7fdb4f"
+  },
+  {
+    "path": "source/src/isolated-onboarding/lib/custom-effects/TelegramSpoiler.ts",
+    "size": 11308,
+    "sha": "9041ccb0549f5fa189d654d9ce7e09abf350a08c"
+  },
+  {
+    "path": "source/src/isolated-onboarding/main.tsx",
+    "size": 349,
+    "sha": "f293eaf9a7b48d3eb5abf1d9264222c3d406ceae"
+  },
+  {
+    "path": "source/src/isolated-onboarding/onboarding.css",
+    "size": 8800,
+    "sha": "57a0bfe671cf48a5bb6d10da4d6b33c829cc26cf"
+  },
+  {
+    "path": "source/src/isolated-onboarding/webgpu-compat.d.ts",
+    "size": 364,
+    "sha": "d1e286a941d5473c49971ff89ec1ea9879aa90bb"
+  },
+  {
+    "path": "source/src/main.tsx",
+    "size": 307,
+    "sha": "9ff4f467b33d63c7f02dc7d00b6eeb85c58208ab"
+  },
+  {
+    "path": "source/src/mobile/BottomSheet.tsx",
+    "size": 4316,
+    "sha": "bd9252e48e4fe40b432358c0f391dd36cb63aa13"
+  },
+  {
+    "path": "source/src/mobile/COMPONENTS.md",
+    "size": 1982,
+    "sha": "653194a057e0cfbb567070a836b6e89b94f491ed"
+  },
+  {
+    "path": "source/src/mobile/Carousel.tsx",
+    "size": 10162,
+    "sha": "28f0997ff50223fc81f66cf72dd27bf48b668d0a"
+  },
+  {
+    "path": "source/src/mobile/Device.tsx",
+    "size": 4145,
+    "sha": "c293387a3b83fe593479a26266d756f8cdf7f08c"
+  },
+  {
+    "path": "source/src/mobile/FlowStack.tsx",
+    "size": 9973,
+    "sha": "b5b0dfa06ffaf865846cfc00af36f47e63f18cf7"
+  },
+  {
+    "path": "source/src/mobile/Keyboard.tsx",
+    "size": 7330,
+    "sha": "52b5b8c3b85cf4199df29b1af66323b929099506"
+  },
+  {
+    "path": "source/src/mobile/MobileCursor.tsx",
+    "size": 2171,
+    "sha": "d1fec8dee0fe937353ca10d593c730ad27025bb4"
+  },
+  {
+    "path": "source/src/mobile/MobileRuntime.tsx",
+    "size": 1431,
+    "sha": "cb215129c101f3e970bf2003337eb8a4d82315f8"
+  },
+  {
+    "path": "source/src/mobile/MobileScroll.tsx",
+    "size": 14802,
+    "sha": "5b1a58c6d8c8920a6631b73c6f693a2f48f5cda9"
+  },
+  {
+    "path": "source/src/mobile/PhoneFrame.tsx",
+    "size": 5155,
+    "sha": "161e4fe75b484192982fedc07c4e43833df093d8"
+  },
+  {
+    "path": "source/src/mobile/assets.ts",
+    "size": 232,
+    "sha": "7ac2f6a49d064a1dbbda9df24b5287723be7a8d3"
+  },
+  {
+    "path": "source/src/mobile/components.tsx",
+    "size": 2691,
+    "sha": "998fd35454040c0cd6c31b708ebe8ab5b9d4c282"
+  },
+  {
+    "path": "source/src/mobile/geometry.ts",
+    "size": 1244,
+    "sha": "3cd22d8260fcc8e35f7e37361382cdbe8b932659"
+  },
+  {
+    "path": "source/src/mobile/index.ts",
+    "size": 802,
+    "sha": "2b25283fb96c0ec8c18bcf70fe325cc25cfd207e"
+  },
+  {
+    "path": "source/src/prototype.css",
+    "size": 99806,
+    "sha": "2e0dc73d2886357317c795aefa72d20001afbc34"
+  },
+  {
+    "path": "source/src/styles.css",
+    "size": 14264,
+    "sha": "addfd283c1d30e3bb47736885ed117c3ae5c4300"
+  },
+  {
+    "path": "source/src/ui/caret.ts",
+    "size": 1623,
+    "sha": "d4bfdcb9fa0bac6fa8d43ee7fd16086b6a977dde"
+  },
+  {
+    "path": "source/src/ui/motion.ts",
+    "size": 588,
+    "sha": "cdb8f8bb7f6cb66dcb7bd2f4d5d8e1c59040f6fb"
+  },
+  {
+    "path": "source/src/ui/native-text-plane.ts",
+    "size": 370,
+    "sha": "49a338407991080cb130f82b0f2a6948eb0e6735"
+  },
+  {
+    "path": "source/src/ui/press.ts",
+    "size": 555,
+    "sha": "f558a0832cc4f155b82ecbee887078b539c6e946"
+  },
+  {
+    "path": "source/src/ui/use-bio-input.ts",
+    "size": 1533,
+    "sha": "a8ce0c3015f9f7a2e59dd6b4d96c2adad901d17e"
+  },
+  {
+    "path": "source/src/ui/useCardTilt.ts",
+    "size": 3355,
+    "sha": "93c776f925876e5bace090110d10af3e6f9cb7f2"
+  },
+  {
+    "path": "source/src/ui/useStableEvent.ts",
+    "size": 382,
+    "sha": "ac5af5067ce02bc41f989a01c953e847ec9ce89b"
+  },
+  {
+    "path": "source/src/ui/viewport-model.ts",
+    "size": 5764,
+    "sha": "f937e85fcea01f9ab2d73cc023dac31270a8293e"
+  },
+  {
+    "path": "source/src/ui/viewport.ts",
+    "size": 4598,
+    "sha": "aa82cc462ae366cc4c403a17a36b1266e8741652"
+  },
+  {
+    "path": "source/src/vite-env.d.ts",
+    "size": 38,
+    "sha": "11f02fe2a0061d6e6e1f271b21da95423b448b32"
+  },
+  {
+    "path": "source/tests/6270-visual-fixture.html",
+    "size": 2191,
+    "sha": "1ed8b86f07833a37dc9a94bee5585ee3411aa1bb"
+  },
+  {
+    "path": "source/tests/alignment-review.html",
+    "size": 2617,
+    "sha": "0149d973e23aff6fa956a19445b308a2ae03e8a1"
+  },
+  {
+    "path": "source/tests/apple-card-motion.test.mjs",
+    "size": 1408,
+    "sha": "194f1bc7b1cc7a1a5eafdc9b949eb1fbadce54bf"
+  },
+  {
+    "path": "source/tests/auth-flow-probe.ts",
+    "size": 2174,
+    "sha": "d569058592e2ff1d4c67aba7ae70556d6248237a"
+  },
+  {
+    "path": "source/tests/auth-form-packing.test.mjs",
+    "size": 1707,
+    "sha": "6b0f635d55fb1a4bd49ac92d06e256de2cf9b066"
+  },
+  {
+    "path": "source/tests/bio-edit.test.mjs",
+    "size": 1286,
+    "sha": "5efc6efe1937c64fdb9c61fc0ccf2657da067943"
+  },
+  {
+    "path": "source/tests/bio-ime-probe.ts",
+    "size": 2183,
+    "sha": "d00b0f7eb56a0ce50788250431f2fd29ae8cb5a0"
+  },
+  {
+    "path": "source/tests/canvas-resize.test.mjs",
+    "size": 2494,
+    "sha": "b44aeece5820a0811774c410dd2838042d63013e"
+  },
+  {
+    "path": "source/tests/caption-geometry.test.mjs",
+    "size": 1014,
+    "sha": "4969eb047ffbc7bc4d1c0a740e4018951f7f5d0c"
+  },
+  {
+    "path": "source/tests/caret.test.mjs",
+    "size": 2301,
+    "sha": "1d20a5b550e13a6aebe858f530fc09405c6bc84b"
+  },
+  {
+    "path": "source/tests/chat-end-sheet.test.mjs",
+    "size": 2220,
+    "sha": "fbbcc3185ccf9c628ab744f3dfabf7a86a1fb458"
+  },
+  {
+    "path": "source/tests/chat-groups.test.mjs",
+    "size": 1722,
+    "sha": "19a8ca44fa89633b4c7b9cea30e3064382bf6b8d"
+  },
+  {
+    "path": "source/tests/chat-outgoing-geometry.test.mjs",
+    "size": 4088,
+    "sha": "8f581e9ea0f959b63111ad224a24b96e7edec30a"
+  },
+  {
+    "path": "source/tests/chat-recording-fixture.html",
+    "size": 222,
+    "sha": "d646492acb26624cedec11b6952c457306480ef8"
+  },
+  {
+    "path": "source/tests/chat-recording-fixture.tsx",
+    "size": 4978,
+    "sha": "26957d82afca2a50e3e6468893d73acf69012a2e"
+  },
+  {
+    "path": "source/tests/chat-recording-flow-fixture.html",
+    "size": 672,
+    "sha": "26b7031a9476efe2fbe13d50f704075ca2bd1b98"
+  },
+  {
+    "path": "source/tests/chat-recording-flow-fixture.tsx",
+    "size": 1496,
+    "sha": "cdbd56e3e3cfffa09656558592c82b910df28eaa"
+  },
+  {
+    "path": "source/tests/chat-scenarios.test.mjs",
+    "size": 5611,
+    "sha": "47e1c6b31515996ac7848cc00cd8fd45fad93f9e"
+  },
+  {
+    "path": "source/tests/chat-session.test.mjs",
+    "size": 3406,
+    "sha": "c9aade325dbccd84a585152e0ac197fa7ada9991"
+  },
+  {
+    "path": "source/tests/chatus-viewport.test.mjs",
+    "size": 16376,
+    "sha": "b11deeccc2b9b3bea7b6fca910067c4ca6106949"
+  },
+  {
+    "path": "source/tests/circle-geometry.test.mjs",
+    "size": 1531,
+    "sha": "98e6657c4fdfb25210004255d4eea99cbca4d59f"
+  },
+  {
+    "path": "source/tests/code-input.test.mjs",
+    "size": 1236,
+    "sha": "6d52e27e6533bb73dcae7cb41724e7bb43ccb06e"
+  },
+  {
+    "path": "source/tests/color-calibration.html",
+    "size": 1185,
+    "sha": "339c7000b09d91be9bdf2f300673edc823bcbb8f"
+  },
+  {
+    "path": "source/tests/living-search.spec.ts",
+    "size": 3302,
+    "sha": "b7755f7298f28deafbce424cb970e05a2952b5b5"
+  },
+  {
+    "path": "source/tests/mobile-runtime.spec.ts",
+    "size": 11097,
+    "sha": "5c746e8beb8694482008ecaa926470a1e6607ac6"
+  },
+  {
+    "path": "source/tests/native-text-plane.test.mjs",
+    "size": 727,
+    "sha": "40481a5189c713a03b17b29613778bf2ee6ecb29"
+  },
+  {
+    "path": "source/tests/onboarding-bio.test.mjs",
+    "size": 1269,
+    "sha": "4cd94741f481b63a7a6d40f7f4f5909d94c42397"
+  },
+  {
+    "path": "source/tests/optical-reference/next-icon.svg",
+    "size": 1903,
+    "sha": "69acffb8801157a8c21013e78465f0078da902e8"
+  },
+  {
+    "path": "source/tests/optical-reference/next-label.svg",
+    "size": 4921,
+    "sha": "4adb72fb1ba13cec3079a73f3b5d810bab26ef43"
+  },
+  {
+    "path": "source/tests/optical-review.css",
+    "size": 1129,
+    "sha": "898c494cf441977e20abea45edd2d54d8838f8ee"
+  },
+  {
+    "path": "source/tests/optical-review.html",
+    "size": 223,
+    "sha": "f69b22fb1f80417383972f4581d08c4b59f80413"
+  },
+  {
+    "path": "source/tests/optical-review.tsx",
+    "size": 1044,
+    "sha": "d5fd51629a5e94e50270bec610d027f6526149fc"
+  },
+  {
+    "path": "source/tests/optical-screen.html",
+    "size": 3841,
+    "sha": "f6956295d546a715269bcec2e760508ea0184a4b"
+  },
+  {
+    "path": "source/tests/questionnaire-storage.test.mjs",
+    "size": 2703,
+    "sha": "1d06e1333a803bd111bf745ac57770c4a04ae5c8"
+  },
+  {
+    "path": "source/tests/recording-flow-probe.ts",
+    "size": 2890,
+    "sha": "f20e9161ecf4e4a0027575c583d625d617226c63"
+  },
+  {
+    "path": "source/tests/runtime-fixture.css",
+    "size": 1249,
+    "sha": "b00a562609d2783587c0a88f54177fc514dfa18f"
+  },
+  {
+    "path": "source/tests/runtime-fixture.html",
+    "size": 334,
+    "sha": "fbed3ca18941066a47fe4d65554633fe896617f6"
+  },
+  {
+    "path": "source/tests/runtime-fixture.tsx",
+    "size": 4156,
+    "sha": "1bada08230e5e9bfde010da232366614b62024e8"
+  },
+  {
+    "path": "source/tests/safari-viewport-fixture.html",
+    "size": 1792,
+    "sha": "71a73a0ce7b0d7ad6ce8fcd549ee67fbda093994"
+  },
+  {
+    "path": "source/tests/safari-viewport-fixture.tsx",
+    "size": 10790,
+    "sha": "7faea7728bf34084f69a5256ea355db83c4c168b"
+  },
+  {
+    "path": "source/tests/search-renderer.test.mjs",
+    "size": 9079,
+    "sha": "9f807e235ac75dd1e705353c744fb040592e8254"
+  },
+  {
+    "path": "source/tests/send-motion-probe.ts",
+    "size": 4303,
+    "sha": "e948e9cf2fa7e3b5d8d736e610702647d79d327c"
+  },
+  {
+    "path": "source/tests/sites-worker.test.mjs",
+    "size": 2219,
+    "sha": "64f277e76964cd78f59ec5c31dfbd4cf1e92015f"
+  },
+  {
+    "path": "source/tests/touch-gesture-ownership.test.mjs",
+    "size": 6118,
+    "sha": "66b7ef8194a2ef2d46440279c647f47d7e28973f"
+  },
+  {
+    "path": "source/tsconfig.json",
+    "size": 527,
+    "sha": "dfc3fbee87d79258402f4bfd95113dbc7d25d1aa"
+  },
+  {
+    "path": "source/vite.config.ts",
+    "size": 255,
+    "sha": "025adf382c8a51e8d8ef9dce3414253a274fc08c"
+  },
+  {
+    "path": "source/vite.onboarding.config.ts",
+    "size": 313,
+    "sha": "a8c89187ddea8560354ccc12e2d99d47254456c7"
+  },
+  {
+    "path": "source/worker/index.js",
+    "size": 483,
+    "sha": "5f35412463f5c8e96e36dda4008c267c4a7c96ce"
+  }
+]

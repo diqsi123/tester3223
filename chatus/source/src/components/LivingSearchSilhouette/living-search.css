@@ -1,0 +1,17 @@
+.living-search{position:relative;width:100%;pointer-events:none;contain:layout style;isolation:isolate}
+.living-search__canvas,.living-search__fallback,.living-search__fallback img,.living-search__static-light{background:url("/assets/chatus/search-light.svg") 229.1055px -11.1445px / 141.793px 195.817px no-repeat}
+.living-search__canvas{display:block;opacity:0;inset:calc(-1 * var(--search-canvas-padding));width:calc(100% + 2 * var(--search-canvas-padding));height:calc(100% + 2 * var(--search-canvas-padding))}
+.living-search[data-renderer="webgl"] .living-search__canvas{opacity:1}
+.living-search[data-renderer="webgl"] .living-search__fallback{visibility:hidden}
+.living-search__fallback{filter:drop-shadow(0 0 3px #fbe68f33);transition:opacity var(--search-match-duration) ease}
+.living-search__fallback img{object-fit:contain;opacity:var(--search-silhouette-opacity)}
+.living-search__static-light{background:radial-gradient(circle at 73.647% 20.364%,#fffef9ed 0,#fcf8ecb3 2px,#fcf8ec70 6px,#fbe68f38 15px,#ffb61c12 28px,transparent 44px)}
+.living-search[data-state="matched"] .living-search__fallback{opacity:0}
+.living-search[data-paused="true"] .living-search__fallback{transition:none}
+@media(prefers-reduced-motion:reduce){.living-search__fallback{transition:opacity var(--search-match-duration) linear}}
+
+.living-search[data-scene="true"]{background:radial-gradient(ellipse at 30% 35%,#ffc21f80,transparent 65%),#fdab1b}
+.living-search[data-scene="true"] .living-search__canvas{inset:0;width:100%;height:100%}
+.living-search[data-scene="true"] .living-search__fallback img{top:var(--character-top);height:379px;width:402px}
+.living-search[data-scene="true"] .living-search__static-light{top:var(--character-top);height:379px}
+.living-search[data-searching="false"] .living-search__static-light{display:none}

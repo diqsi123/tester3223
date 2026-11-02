@@ -1,0 +1,13 @@
+<!doctype html><html lang="ru"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Chatus · выравнивания</title><style>html,body{margin:0;background:#f4f4f4;color:#1c1407;font:13px system-ui}h1{font:500 13px system-ui;margin:12px}#crop{position:relative;overflow:hidden;margin:10px auto;background:#f4f4f4}iframe{position:absolute;left:0;top:0;width:402px;height:780px;border:0;transform-origin:0 0;max-width:none}pre{white-space:pre-wrap;margin:12px;font:11px/1.35 monospace}</style></head><body><h1 id="title"></h1><div id="crop"><iframe id="screen" title="Реальный экран"></iframe></div><pre id="metrics"></pre><script type="module">
+const q=new URLSearchParams(location.search),selector=q.get('selector'),w=Number(q.get('w')||180),h=Number(q.get('h')||60),z=Number(q.get('z')||2),params=new URLSearchParams({section:q.get('section')||'dialog',mobile:'1'});
+for(const key of ['chat','peer','auth','profile'])if(q.has(key))params.set(key,q.get(key));
+const frame=document.getElementById('screen'),crop=document.getElementById('crop');crop.style.width=w*z+'px';crop.style.height=h*z+'px';document.getElementById('title').textContent=q.get('title')||selector;
+frame.onload=async()=>{const doc=frame.contentDocument;await doc.fonts.ready;const start=performance.now();let previous='',stable=0,scrolled=false;
+const sample=()=>{const e=doc.querySelector(selector);if(!e){if(performance.now()-start<2200){requestAnimationFrame(sample);return;}document.getElementById('metrics').textContent='Missing '+selector;document.body.dataset.ready='missing';return;}
+if(!scrolled&&q.get('scroll')==='1'){e.scrollIntoView({block:'center'});scrolled=true;}
+const r=e.getBoundingClientRect(),key=[r.x,r.y,r.width,r.height].map(n=>Math.round(n*100)).join('/');stable=key===previous?stable+1:0;previous=key;if((stable<12||performance.now()-start<Number(q.get('settle')||700))&&performance.now()-start<2600){requestAnimationFrame(sample);return;}
+const x=r.x+r.width/2-w/2,y=r.y+r.height/2-h/2;frame.style.transform=`scale(${z}) translate(${-x}px,${-y}px)`;
+const box=n=>{const b=n.getBoundingClientRect(),s=getComputedStyle(n);return{x:b.x-r.x,y:b.y-r.y,w:b.width,h:b.height,font:s.font,line:s.lineHeight,color:s.color,transform:s.transform};};
+document.getElementById('metrics').textContent=JSON.stringify({selector,box:box(e),children:[...e.children].map(n=>({tag:n.tagName,text:n.textContent,src:n.getAttribute('src'),...box(n)}))},null,2);document.body.dataset.ready='true';};requestAnimationFrame(sample);
+};frame.src='/?'+params;
+</script></body></html>

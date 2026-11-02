@@ -1,0 +1,10 @@
+.questionnaire-glow{position:absolute;left:0;right:0;top:301.056640625px;bottom:0;pointer-events:none;overflow:clip}
+.questionnaire-glow img,.questionnaire-glow canvas{position:absolute;inset:0;display:block;width:100%;height:100%;user-select:none}
+.questionnaire-glow img{transform-origin:50% 100%;animation:questionnaire-glow-life 12s ease-in-out infinite;will-change:transform}
+.questionnaire-glow[data-renderer="pending"] img,.questionnaire-glow[data-active="false"] img{animation:none;transform:none}
+.questionnaire-glow canvas{visibility:hidden}
+.questionnaire-glow[data-renderer="live"] canvas{visibility:visible}
+.questionnaire-glow[data-renderer="live"] img{visibility:hidden;animation:none}
+.questionnaire-glow[data-playing="false"] img{animation-play-state:paused}
+@keyframes questionnaire-glow-life{0%,100%{transform:translateX(0) scale(1)}25%{transform:translateX(-9px) scale(1.08,1.03)}50%{transform:translateX(9px) scale(1.06,1.02)}75%{transform:translateX(-6px) scale(1.08,1.03)}}
+@media(prefers-reduced-motion:reduce){.questionnaire-glow img{animation:none;will-change:auto}}

@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chatus Safari viewport regression</title>
+    <script>
+      const fixtureQuery=new URLSearchParams(location.search);
+      if(fixtureQuery.has('reduce-motion')||fixtureQuery.get('mobile')==='1'){
+        const original=window.matchMedia.bind(window);
+        window.matchMedia=query=>{
+          const result=original(query);
+          if(query.includes('prefers-reduced-motion')&&fixtureQuery.has('reduce-motion')||query==='(pointer:coarse)'&&fixtureQuery.get('mobile')==='1')Object.defineProperty(result,'matches',{value:true});
+          if(query==='(pointer:fine)'&&fixtureQuery.get('mobile')==='1')Object.defineProperty(result,'matches',{value:false});
+          return result;
+        };
+      }
+    </script>
+    <style>
+      #safari-viewport-controls{position:fixed;z-index:2147483000;left:0;right:0;top:0;height:120px;padding:8px;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));grid-template-rows:36px 36px 16px;gap:4px;background:#eef2f6;border-top:1px solid #8b95a4;color:#17202a;font:12px/16px system-ui,sans-serif}
+      #safari-viewport-controls button{min-width:0;padding:4px;border:1px solid #8b95a4;border-radius:8px;background:#fff;color:inherit;font:inherit;touch-action:manipulation}
+      #safari-viewport-controls button:active{background:#dce4ed}
+      #safari-viewport-controls output{grid-column:1/-1;white-space:nowrap;font:11px/16px ui-monospace,monospace}
+    </style>
+  </head>
+  <body>
+    <div id="root"></div>
+    <div id="safari-viewport-controls" aria-label="Тест VisualViewport"></div>
+    <script type="module" src="/tests/safari-viewport-fixture.tsx"></script>
+  </body>
+</html>

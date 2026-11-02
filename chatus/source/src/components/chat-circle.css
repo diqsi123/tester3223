@@ -1,0 +1,64 @@
+.chat-circle-message{position:relative;align-self:flex-start;flex:none;width:fit-content;outline:none;touch-action:pan-y;z-index:1}
+.chat-circle-message.is-outgoing{align-self:flex-end}
+.chat-message-row:has(>.chat-circle-message){padding:8px 0}
+.chat-message-row:has(.chat-circle-finished){display:none}
+.chat-circle-content{position:relative;flex:none;width:var(--circle-size);height:var(--circle-size)}
+.dialog-root .chat-circle-surface{position:absolute;inset:0;padding:0;border:0;border-radius:50%;background:#fff;overflow:visible;display:block;width:100%;height:100%}
+.dialog-root .chat-circle-content.is-outgoing .chat-circle-surface{background:#ff088e}
+.chat-circle-picture{position:absolute;inset:var(--circle-inset);overflow:hidden;border-radius:50%;pointer-events:none}
+.chat-circle-poster{position:absolute;left:-18.65%;top:-46.73%;width:168.25%;height:153.76%;max-width:none;object-fit:fill;pointer-events:none}
+.chat-circle-video{position:absolute;inset:0;width:100%;height:100%;max-width:none;object-fit:cover;pointer-events:none}
+.chat-circle-once{position:absolute;inset:0;display:grid;place-items:center;backdrop-filter:blur(25px);background:#00000003}
+.chat-circle-once:before{content:'';position:absolute;inset:0;background:url('/assets/chat-media/once-noise-2x.png') center/310px 256px;mix-blend-mode:screen}
+.chat-circle-once>img{position:relative;width:48px;height:48px;max-width:none}
+.chat-circle-mute{position:absolute;left:calc(50% - 12px);top:6px;width:24px;height:24px;display:grid;place-items:center;border-radius:100px;background:#0000004d;backdrop-filter:blur(25px)}
+.chat-circle-time{position:absolute;bottom:0;display:flex;align-items:center;justify-content:center;gap:3px;height:20px;padding:5px 7px 3px;border-radius:100px;background:#0000004d;backdrop-filter:blur(25px);color:#fff;font:500 11px/13.75px Gerbera,sans-serif;letter-spacing:.55px;white-space:nowrap;pointer-events:none}
+.chat-circle-time.is-leading{left:1px}.chat-circle-time.is-trailing{right:1px}
+.chat-circle-time img{flex:none;max-width:none}
+.chat-circle-content.is-expanded .chat-circle-time.is-leading{left:97px}.chat-circle-content.is-expanded .chat-circle-time.is-trailing{right:99px}
+.chat-circle-progress{position:absolute;left:7px;top:7px;width:356px;height:356px;pointer-events:none}
+.chat-circle-progress>img{position:absolute;left:178px;top:0;max-width:none}
+/* 3949:79073: BG80% contains the shared Support Color24% material. */
+.dialog-root .chat-circle-reply{position:absolute;left:226px;top:1px;width:150px;height:42px;border:0;border-radius:0 8px 8px 0;padding:6px 12px 6px 10px;text-align:left;color:#ff088e;background:transparent;overflow:hidden;isolation:isolate;backdrop-filter:blur(16px)}
+.chat-circle-reply:before{content:'';position:absolute;left:0;top:2px;width:2px;height:38px;border-radius:2px;background:currentColor}
+.dialog-root .chat-circle-reply>.chat-quote-material{left:0;top:0;right:0;bottom:0;width:100%;height:100%;opacity:.192}
+.chat-circle-reply>strong,.chat-circle-reply>span{display:block;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;font:500 13px/16.25px Gerbera,sans-serif}.chat-circle-reply>span{font-weight:400;opacity:.8}
+.chat-circle-content.is-consumed{overflow:hidden}
+.chat-circle-viewed{position:absolute;left:-158px;top:-8px;width:386px;height:236px;max-width:none;pointer-events:none}
+.chat-circle-recorder{position:absolute;inset:0;z-index:39;background:#00000003;backdrop-filter:blur(12px);isolation:isolate;overflow:clip}
+.chat-circle-recorder-preview{position:absolute;left:12px;top:calc(50% - 226px);width:378px;height:378px;border-radius:50%;overflow:hidden}
+.chat-circle-recorder-footer{position:absolute;left:20px;bottom:var(--chat-footer-bottom,110px);width:362px;height:64px}
+.chat-circle-recorder-actions{position:absolute;left:0;top:-60px;display:flex;gap:12px}
+.dialog-root .chat-circle-glass{position:relative;display:grid;place-items:center;width:48px;height:48px;padding-top:1px;border:0;border-radius:100px;background:#ffffff7a;backdrop-filter:blur(2px);box-shadow:0 8px 16px #1c14070a}
+.chat-circle-glass img{max-width:none}
+.chat-circle-recorder-bar{position:absolute;left:2px;top:3px;width:358px;height:48px;border-radius:24px;background:#ffffff7a;backdrop-filter:blur(10px);box-shadow:0 8px 12px #1c140708,inset 0 0 0 1px #ffffff80}
+.chat-circle-recorder-timer{position:absolute;left:16px;top:0;height:48px;display:flex;align-items:center;gap:6px;color:#1c1407;font:500 15px/15px Gerbera,sans-serif;letter-spacing:-.3px}
+.dialog-root .chat-circle-delete{position:absolute;left:87px;top:0;width:184px;height:48px;display:flex;align-items:center;justify-content:center;gap:8px;padding:1px 24px 0;background:transparent;color:#f54461;font:500 15px/15px Gerbera,sans-serif;letter-spacing:-.3px}
+.chat-circle-delete>span{display:block;width:110px;height:15px;flex:none;text-align:center}
+.chat-circle-cancel{position:absolute;left:88px;top:0;width:190px;height:48px;display:flex;align-items:center;justify-content:center;gap:8px;color:rgb(28 20 7/.56);font:500 15px/15px Gerbera,sans-serif;letter-spacing:-.3px;white-space:pre}
+.dialog-root .chat-circle-lock{position:absolute;left:318px;top:-97px;width:36px;height:68px;padding:12px 0 16px;display:flex;flex-direction:column;align-items:center;gap:12px;border:0;border-radius:100px;background:#ffffff7a;backdrop-filter:blur(2px);box-shadow:0 8px 16px #1c14070a}
+.dialog-root .chat-circle-lock.is-locked{left:319px;top:-65px;width:36px;height:36px;padding:0;justify-content:center}
+.chat-circle-recorder-glow{position:absolute;left:287.5px;top:-23.5px;width:96px;height:94px;max-width:none;pointer-events:none}
+.dialog-root .chat-circle-record-action{position:absolute;left:300px;top:-9px;width:72px;height:72px;display:grid;place-items:center;padding:0;border:1px solid #ffffffb3;border-radius:100px;background:linear-gradient(#fdab1b 60%,#fbab1b);box-shadow:0 6px 16px #804f0a1f;touch-action:none}
+.chat-circle-record-action>img{max-width:none}
+.chat-circle-recorder-hint{position:absolute;left:-14px;top:-112px;display:flex;flex-direction:column;align-items:center;z-index:2;pointer-events:none}
+.chat-circle-recorder-hint>span{display:block;padding:10px 12px 8px;border-radius:12px;background:#1c14077a;backdrop-filter:blur(40px);color:#fff;font:500 13px/17.55px Gerbera,sans-serif;letter-spacing:-.26px;white-space:nowrap}
+.chat-circle-recorder-hint>img{margin-right:auto;margin-left:92px;max-width:none}
+@media(prefers-reduced-transparency:reduce){.chat-circle-once,.chat-circle-recorder,.chat-circle-time,.chat-circle-mute,.chat-circle-reply,.chat-circle-glass,.chat-circle-lock,.chat-circle-recorder-bar,.chat-circle-recorder-hint>span{backdrop-filter:none}.chat-circle-recorder{background:#f4f4f4f0}.chat-circle-glass,.chat-circle-lock,.chat-circle-recorder-bar{background:#fff}}
+
+.chat-bubble.is-outgoing>.chat-reactions.is-source{left:16px}.chat-bubble.is-incoming>.chat-reactions.is-source{left:auto;right:16px}
+.dialog-root .chat-reactions.is-source button.has-source-asset{display:flex;align-items:center;justify-content:center;gap:4px;width:32px;height:24px;min-height:24px;padding:0;border:0;border-radius:40px;background:#fff;box-shadow:0 0 0 1.6px #f3f3f3}
+.chat-reaction-glyph{display:block;flex:none;background-image:url('/assets/chat/mobile/reaction-bar.svg');background-repeat:no-repeat}
+.dialog-root .chat-reactions.is-source button.has-source-asset:has(.chat-reaction-count){width:auto;min-width:32px;padding:0 8px}
+.dialog-root .chat-reactions .chat-reaction-count{font:500 12px/15px Gerbera,sans-serif;color:#1c1407}
+
+.chat-bubble.is-sticker .chat-message-time{opacity:1}
+
+/* SourceI3949:78736;2452:19682: source timer's text top17, dot top19.5. */
+.chat-circle-recorder-timer{transform:translateY(.5px)}
+.chat-circle-recorder-timer>span{display:block;flex:none;min-width:30px;height:15px}
+/* Actual source Time overrides: duration24x14@y4; incoming clock23x12@y3. */
+.chat-circle-time>span{display:block;flex:none;height:14px}
+.chat-circle-time.is-leading>span{min-width:24px}
+.chat-circle-content:not(.is-outgoing) .chat-circle-time.is-trailing{padding-right:6px}
+.chat-circle-content:not(.is-outgoing) .chat-circle-time.is-trailing>span{height:12px;transform:translateY(-2px)}

@@ -1,0 +1,38 @@
+/* The field and its caret share one reply origin; selection changes never animate. */
+.chat-input-surface > .chat-entry-layer {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: var(--chat-reply-height);
+  height: var(--chat-bar-height);
+  overflow: hidden;
+  pointer-events: none;
+  transition: top 480ms cubic-bezier(.32,0,.2,1);
+}
+.chat-input-surface > .chat-entry-layer > .chat-text-entry {
+  top: 0;
+  bottom: auto;
+  pointer-events: auto;
+  transition: none !important;
+}
+.chat-input-surface > .chat-entry-layer > .chat-custom-caret {
+  transition: none !important;
+}
+html[data-chatus-native] .chat-entry-layer,
+[data-keyboard-dragging="true"] .chat-entry-layer {
+  transition: none;
+}
+@media (prefers-reduced-motion: reduce) {
+  .chat-input-surface > .chat-entry-layer { transition: none; }
+}
+
+/* Source3949:78889 / 78273: symbols finish2px above multiline/reply bar bottom. */
+.dialog-root .chat-input-surface[data-multiline="true"] .dialog-composer-symbols,
+.dialog-root .chat-input-surface[data-has-reply="true"] .dialog-composer-symbols { bottom:2px; }
+
+/* Source3949:78834: empty caret16px high, centered in the48px write bar.
+   CSS only: native selection/IME owns nonempty text, with no per-key Range work. */
+.chat-empty-caret{display:none;position:absolute;left:14px;top:16px;width:1.6px;height:16px;border-radius:1px;background:#fdab1b;pointer-events:none;z-index:3;animation:chat-caret-blink 1s step-end infinite}
+html[data-chatus-native] .chat-input-surface .chat-text-entry:focus:placeholder-shown{caret-color:transparent!important}
+.chat-text-entry:focus:placeholder-shown+.chat-empty-caret{display:block}
+@media(prefers-reduced-motion:reduce){.chat-empty-caret{animation:none}}

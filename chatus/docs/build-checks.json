@@ -1,0 +1,15 @@
+{
+  "checkedDate": "2026-11-02",
+  "buildChecks": [
+    {
+      "file": "index-C9Z2bnPp.js",
+      "sha256": "d35b6b1099da9129e133caf825df4183163e2e4b6eda987a4e36dec440ff3c8a",
+      "bytes": 789630
+    },
+    {
+      "file": "index-Dm2NM7XH.css",
+      "sha256": "70571647cb0f340bd9df84a1da8c25120716ee65b77673bd87da946cce6dae22",
+      "bytes": 231542
+    }
+  ]
+}

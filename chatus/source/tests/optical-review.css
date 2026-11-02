@@ -1,0 +1,11 @@
+html,body,#root{height:auto!important;min-height:100%;overflow:auto!important;background:#f4f4f4}
+main{width:402px}h2{margin:12px;font:500 13px Gerbera,sans-serif;color:#1c1407}
+.inspection-window{position:relative;width:402px;height:180px;overflow:hidden;background:#f4f4f4}
+.reference-canvas{position:absolute;left:0;top:0;width:346px;height:64px;transform-origin:0 0;transform:scale(4) translate(-122.5px,0)}
+.reference-canvas img{position:absolute;max-width:none}
+.ref-gold{left:0;top:0;width:346px;height:64px}
+.ref-label{left:131.203125px;top:21px;width:60px;height:19px}
+.ref-icon{left:196.328125px;top:22.341796875px;width:20px;height:17px}
+.actual-canvas.dialog-root{position:absolute;inset:auto;left:0;top:0;width:402px;height:200px;overflow:visible;background:transparent;transform-origin:0 0;transform:scale(4) translate(-130.5px,-12px)}
+.rating-window{position:relative;width:402px;height:135px;overflow:hidden}
+.rating-canvas.dialog-root{position:absolute;inset:auto;left:0;top:0;width:402px;height:200px;overflow:visible;background:transparent;transform-origin:0 0;transform:scale(2.5) translate(-113.5px,-100px)}

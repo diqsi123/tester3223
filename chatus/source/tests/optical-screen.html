@@ -1,0 +1,21 @@
+<!doctype html><html lang="ru"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Chatus · проверка оптики</title><style>html,body{margin:0;background:#f4f4f4;color:#1c1407;font:13px system-ui}h1{font:500 14px system-ui;margin:14px 12px}#crop{position:relative;overflow:hidden;margin:12px auto;background:#f4f4f4}iframe{position:absolute;left:0;top:0;width:402px;height:780px;border:0;transform-origin:0 0;max-width:none}pre{white-space:pre-wrap;margin:12px;font:12px/1.4 monospace}#original{display:block;margin:12px;color:#1c1407}</style></head><body><h1 id="title"></h1><div id="crop"><iframe id="screen" title="Реальный экран Chatus"></iframe></div><pre id="metrics"></pre><a id="original" target="_blank">Открыть реальный экран</a><script type="module">
+const q=new URLSearchParams(location.search),part=q.get('part')||'next';
+const parts={
+'circle-delete':['.chat-circle-delete',190,48,2], 'record-delete':['.chat-record-delete',190,48,2], 'record-timer':['.chat-record-duration',75,36,3.5], 'record-cancel':['.chat-record-cancel',195,38,2], 'record-send':['.chat-record-action',85,85,3.5], 'peer-friend':['.peer-actions>button:first-child',120,81,3.2], 'peer-end':['.peer-actions>button:nth-child(2)',120,81,3.2], 'peer-next':['.peer-actions>button:nth-child(3)',120,81,3.2], next:['.chat-end-actions>.chat-gold',110,44,3.5],add:['.dialog-add-friend',185,44,2.1],secondary:['.dialog-actions>div',330,48,1.15],
+'rating':['.chat-rating-choices',150,50,2.5],
+'accept':['.chat-friend-decisions>.chat-gold',170,81,2.25],decline:['.chat-friend-decisions>button:not(.chat-gold)',170,81,2.25],
+'friend-name':['.chat-friend-name',270,78,1.4],status:['.chat-friend-status',100,34,3.8],header:['.dialog-identity',250,65,1.5],
+input:['.chat-text-entry',180,95,2.1],quote:['.chat-composer-reply>div',215,46,1.8],record:['.chat-recording',300,60,1.25],
+'sticker-tabs':['.chat-sticker-tabs',200,50,1.9],caption:['.chat-media-caption textarea',310,70,1.2],
+'confirm-title':['.chat-session-sheet h2',330,38,1.15],'confirm-button':['.chat-session-sheet .is-destructive',200,60,1.9],
+'peer-name':['.peer-expanded h1',270,45,1.4],'peer-actions':['.peer-actions',362,81,1.05],
+'peer-tab':['.peer-tabs button:nth-child(2)',110,48,3.4],menu:['.chat-message-menu-rows',280,290,1.35],
+};
+const [selector,w,h,z]=parts[part],params=new URLSearchParams({section:'dialog',mobile:'1',chat:q.get('chat')||'rated'});if(q.get('peer'))params.set('peer',q.get('peer'));
+const frame=document.getElementById('screen'),crop=document.getElementById('crop');crop.style.width=w*z+'px';crop.style.height=h*z+'px';document.getElementById('title').textContent=(q.get('chat')||'rated')+' · '+part+' · '+z+'×';document.getElementById('original').href='/?'+params;document.getElementById('metrics').textContent='Загрузка';
+frame.onload=async()=>{const doc=frame.contentDocument;await doc.fonts.ready;const start=performance.now();let previous='',stable=0;
+ const sample=()=>{const e=doc.querySelector(selector);if(!e){if(performance.now()-start<2000){requestAnimationFrame(sample);return}document.getElementById('metrics').textContent='Missing '+selector;return}
+ const r=e.getBoundingClientRect(),key=[r.x,r.y,r.width,r.height].map(n=>Math.round(n*100)).join('/');stable=key===previous?stable+1:0;previous=key;if(stable<8&&performance.now()-start<1800){requestAnimationFrame(sample);return}
+ const x=r.x+r.width/2-w/2,y=r.y+r.height/2-h/2;frame.style.transform=`scale(${z}) translate(${-x}px,${-y}px)`;document.getElementById('metrics').textContent=JSON.stringify({selector,x:r.x,y:r.y,w:r.width,h:r.height,font:getComputedStyle(e).font},null,2);document.body.dataset.opticalReady='true';};requestAnimationFrame(sample);
+};frame.src='/?'+params;
+</script></body></html>

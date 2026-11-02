@@ -1,0 +1,16 @@
+import {useEffect,useRef,useState,type PointerEvent as ReactPointerEvent} from 'react';
+import {animate,useMotionValue,useReducedMotion,useTransform} from 'motion/react';
+import {softTilt,tiltReleaseVelocity,type TiltSample} from '../isolated-onboarding/apple-card-motion';
+import {UI_MOTION} from './motion';
+/** Shared held-card behavior. Vertical touch scrolling wins before horizontal intent. */
+export function useCardTilt(){
+ const reduced=useReducedMotion(),pitch=useMotionValue(0),yaw=useMotionValue(0),[held,setHeld]=useState(false);
+ const spring=useRef<ReturnType<typeof animate>[]>([]),samples=useRef<TiltSample[]>([]),session=useRef<{id:number;x:number;y:number;pitch:number;yaw:number;claimed:boolean;type:string}|null>(null);
+ useEffect(()=>()=>spring.current.forEach(c=>c.stop()),[]);
+ const release=(cancel=false)=>{const s=session.current;session.current=null;setHeld(false);if(!s?.claimed)return;const velocity=cancel?{pitch:0,yaw:0}:tiltReleaseVelocity(samples.current,performance.now());spring.current.forEach(c=>c.stop());spring.current=[animate(pitch,0,{...UI_MOTION.gesture,velocity:velocity.pitch}),animate(yaw,0,{...UI_MOTION.gesture,velocity:velocity.yaw})];};
+ const onPointerDown=(e:ReactPointerEvent<HTMLElement>)=>{if(reduced||e.button!==0||e.isPrimary===false||session.current||(e.target as Element).closest('button,a,input'))return;session.current={id:e.pointerId,x:e.clientX,y:e.clientY,pitch:pitch.get(),yaw:yaw.get(),claimed:e.pointerType==='mouse',type:e.pointerType};samples.current=[{time:performance.now(),pitch:pitch.get(),yaw:yaw.get()}];if(e.pointerType==='mouse'){spring.current.forEach(c=>c.stop());e.currentTarget.setPointerCapture(e.pointerId);setHeld(true);}};
+ const onPointerMove=(e:ReactPointerEvent<HTMLElement>)=>{const s=session.current;if(!s||s.id!==e.pointerId||reduced)return;const dx=e.clientX-s.x,dy=e.clientY-s.y;if(!s.claimed){if(Math.max(Math.abs(dx),Math.abs(dy))<8)return;if(Math.abs(dy)>Math.abs(dx)){session.current=null;return;}s.claimed=true;spring.current.forEach(c=>c.stop());s.pitch=pitch.get();s.yaw=yaw.get();s.x=e.clientX;s.y=e.clientY;samples.current=[{time:performance.now(),pitch:s.pitch,yaw:s.yaw}];setHeld(true);e.currentTarget.setPointerCapture(e.pointerId);e.preventDefault();e.stopPropagation();return;}e.preventDefault();e.stopPropagation();const b=e.currentTarget.getBoundingClientRect();pitch.set(softTilt(s.pitch-dy/b.height*26,10));yaw.set(softTilt(s.yaw+dx/b.width*26,12));samples.current.push({time:performance.now(),pitch:pitch.get(),yaw:yaw.get()});samples.current=samples.current.filter(p=>performance.now()-p.time<=100);};
+ const reflection=useTransform(()=>`radial-gradient(ellipse at ${50+yaw.get()*2}% ${50-pitch.get()*2}%,#fffffff0,transparent 65%)`);
+ const opacity=useTransform(()=>Math.min(.2,Math.hypot(pitch.get(),yaw.get())/35));
+ return {held,style:{rotateX:pitch,rotateY:yaw,transformPerspective:700},reflection,reflectionOpacity:opacity,handlers:{onPointerDown,onPointerMove,onPointerUp:(e:ReactPointerEvent<HTMLElement>)=>{if(session.current?.id!==e.pointerId)return;if(session.current.claimed)e.stopPropagation();release();},onPointerCancel:(e:ReactPointerEvent<HTMLElement>)=>{if(session.current?.id===e.pointerId)release(true);},onLostPointerCapture:(e:ReactPointerEvent<HTMLElement>)=>{if(session.current?.id===e.pointerId)release(true);}}};
+}

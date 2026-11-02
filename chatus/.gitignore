@@ -1,0 +1,8 @@
+source/node_modules/
+source/dist/
+source/test-results/
+source/playwright-report/
+*.zip
+*-draft.md
+motion-coverage-raw.txt
+.DS_Store

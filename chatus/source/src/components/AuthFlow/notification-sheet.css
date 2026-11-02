@@ -1,0 +1,27 @@
+.device-screen:has(.notification-sheet-body)>.sheet-overlay{background:rgba(28,20,7,.48)}
+.bottom-sheet:has(.notification-sheet-body){overflow:visible;border-radius:0;background:transparent;box-shadow:none}
+.bottom-sheet:has(.notification-sheet-body) .sheet-header{position:absolute;width:1px;height:1px;padding:0;overflow:hidden;clip-path:inset(50%)}
+.bottom-sheet:has(.notification-sheet-body) .sheet-content{position:absolute;inset:0;padding:0;overflow:visible}
+.bottom-sheet:has(.notification-sheet-body) .sheet-handle-zone{position:absolute;z-index:2;top:-20px;left:calc(50% - 16px);width:32px;height:20px;cursor:grab}
+.bottom-sheet:has(.notification-sheet-body) .sheet-handle{width:32px;height:6px;background:#fff}
+.notification-sheet-body{position:absolute;left:0;top:0;width:402px;height:584px;background:#fff;color:#1c1407;transform-origin:0 0;overflow:clip;clip-path:path("M0 64C0 41.5979 0 30.3968 4.35974 21.8404C8.19467 14.3139 14.3139 8.19467 21.8404 4.35974C30.3968 0 41.5979 0 64 0H338C360.402 0 371.603 0 380.16 4.35974C387.686 8.19467 393.805 14.3139 397.64 21.8404C402 30.3968 402 41.5979 402 64V520C402 542.402 402 553.603 397.64 562.16C393.805 569.686 387.686 575.805 380.16 579.64C371.603 584 360.402 584 338 584H64C41.5979 584 30.3968 584 21.8404 579.64C14.3139 575.805 8.19467 569.686 4.35974 562.16C0 553.603 0 542.402 0 520V64Z")}
+.notification-sheet-body *{box-sizing:border-box}
+.notification-close{position:absolute;z-index:1;left:342px;top:12px;width:48px;height:48px;display:grid;place-items:center;border:0;border-radius:100px;background:rgba(28,20,7,.08);cursor:pointer}
+.notification-close img{width:14px;height:14px;pointer-events:none}
+.notification-illustration{position:absolute;left:48px;top:30px;width:306px;height:207px;overflow:clip;pointer-events:none}
+.notification-illustration img{position:absolute;display:block;user-select:none;-webkit-user-drag:none;will-change:transform}
+.notification-bubble-white{left:31.7818px;top:0;width:163.0853px;height:174.7787px;transform-origin:65% 70%;animation:notification-white-life 6s ease-in-out infinite}
+.notification-bubble-green{left:117.3486px;top:36.8226px;width:154.7208px;height:170.1774px;transform-origin:35% 75%;animation:notification-green-life 6s ease-in-out infinite}
+.notification-sheet-body[data-playing="false"] .notification-illustration img{animation-play-state:paused}
+@keyframes notification-white-life{0%,100%{transform:translateY(0) rotate(0)}25%{transform:translateY(3px) rotate(-1.5deg)}55%{transform:translateY(-4px) rotate(1.5deg)}80%{transform:translateY(-1px) rotate(-.5deg)}}
+@keyframes notification-green-life{0%,100%{transform:translateY(0) rotate(0) scale(1)}25%{transform:translateY(-5px) rotate(2deg) scale(1.015)}55%{transform:translateY(2px) rotate(-1.5deg) scale(1)}80%{transform:translateY(-2px) rotate(.5deg) scale(1.006)}}
+.notification-copy{position:absolute;left:20px;top:265px;width:362px;text-align:center;display:flex;flex-direction:column;align-items:center;gap:16px}
+.notification-copy h1{width:318px;height:43px;margin:0;font:italic 900 48px/.9 OnboardingHeading,sans-serif;letter-spacing:-1.92px;white-space:nowrap}
+.notification-copy p{margin:0;font:500 15px/1.35 Gerbera,sans-serif;letter-spacing:-.3px;white-space:pre}
+.notification-actions{position:absolute;left:20px;top:412px;width:362px;display:flex;flex-direction:column;gap:8px}
+.notification-actions button{height:64px;width:362px;display:flex;justify-content:center;align-items:center;padding:1px 32px 0;border:0;border-radius:100px;font:700 17px/1 Gerbera,sans-serif;letter-spacing:-.34px;cursor:pointer}
+.notification-enable{background:#1c1407;color:#fff}
+.notification-later{background:transparent;color:#1c1407}
+.notification-sheet-body button:focus-visible{outline:2px solid #fdab1b;outline-offset:3px}
+.phone-device:has(.notification-sheet-body) .home-indicator-svg{filter:none!important}
+@media(prefers-reduced-motion:reduce){.notification-illustration img{animation:none;will-change:auto}}

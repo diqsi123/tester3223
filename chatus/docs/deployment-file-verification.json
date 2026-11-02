@@ -1,0 +1,16 @@
+{
+  "deployment": "dpl_78W4cSTzAGR6SfLSvSJGz5yvrbnm",
+  "date": "2026-11-02",
+  "algorithm": "sha1 raw bytes (Vercel file uid)",
+  "matched": 415,
+  "total": 416,
+  "runtimeFilesMatched": 415,
+  "runtimeFilesTotal": 415,
+  "configuration": {
+    "file": "reference-deployment/vercel.json",
+    "rawSha1": "865ccb262ce7512b0cbcc0cec58eb845f323dd2e",
+    "expected": "865ccb262ce7512b0cbcc0cec58eb845f323dd2e",
+    "matches": true
+  },
+  "note": "415 deployed runtime files match the reproduced build. The extra Vercel configuration file is preserved separately and also matches."
+}
